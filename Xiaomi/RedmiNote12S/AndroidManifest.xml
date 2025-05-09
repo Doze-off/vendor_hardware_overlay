@@ -4,7 +4,7 @@
           android:versionName="1.0">
           <overlay android:targetPackage="android"
                 android:requiredSystemPropertyName="ro.vendor.build.fingerprint"
-                android:requiredSystemPropertyValue="+(*edmi/ocean*|*edmi/sea*)"
+                android:requiredSystemPropertyValue="+(*Redmi/ocean*|*Redmi/sea*)"
           android:priority="794"
           android:isStatic="true" />
 </manifest>
