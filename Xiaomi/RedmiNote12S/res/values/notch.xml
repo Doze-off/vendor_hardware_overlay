@@ -3,7 +3,7 @@
     <dimen name="rounded_corner_radius">106px</dimen>
     <dimen name="rounded_corner_radius_bottom">106px</dimen>
     <dimen name="rounded_corner_radius_top">106px</dimen>
-    <dimen name="status_bar_height">96px</dimen>
+    <dimen name="status_bar_height">98px</dimen>
     <dimen name="status_bar_height_default">98px</dimen>
     <dimen name="status_bar_height_portrait">98px</dimen>
     <dimen name="status_bar_height_landscape">30dip</dimen>
