@@ -4,14 +4,17 @@
     <bool name="config_enableBurnInProtection">true</bool>
     <bool name="config_dozeAlwaysOnDisplayAvailable">true</bool>
     <bool name="config_useDevInputEventForAudioJack">true</bool>
+    <bool name="config_automatic_brightness_available">true</bool>
+    <bool name="config_showNavigationBar">true</bool>
 
     <!-- integer files -->
     <integer name="config_screenBrightnessDoze">6</integer>
     <integer name="config_screenBrightnessSettingMinimum">1</integer>
     <integer name="config_defaultRefreshRate">60</integer>
     <integer name="config_defaultPeakRefreshRate">90</integer>
-     <integer name="config_autoBrightnessBrighteningLightDebounce">2000</integer>
+    <integer name="config_autoBrightnessBrighteningLightDebounce">2000</integer>
     <integer name="config_autoBrightnessDarkeningLightDebounce">2000</integer>
+
 
     <!-- integer-array files-->
     <integer-array name="config_autoBrightnessLevels">
@@ -155,6 +158,14 @@
         <item>283</item>
         <item>283</item>
     </integer-array>
+    <array name="config_screenBrightnessBacklight">
+        <item>1</item>
+        <item>255</item>
+    </array>
+    <array name="config_screenBrightnessNits">
+        <item>4.5</item>
+        <item>900</item>
+    </array>
     
     <!-- fraction files -->
     <fraction name="config_autoBrightnessAdjustmentMaxGamma">150%</fraction>
