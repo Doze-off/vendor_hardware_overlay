@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="rounded_corner_radius">106.0px</dimen>
-    <dimen name="rounded_corner_radius_bottom">106.0px</dimen>
-    <dimen name="rounded_corner_radius_top">106.0px</dimen>
-    <dimen name="status_bar_height">93.0px</dimen>
-    <dimen name="status_bar_height_default">93.0px</dimen>
-    <dimen name="status_bar_height_portrait">93.0px</dimen>
-    <dimen name="status_bar_height_landscape">30.0dip</dimen>
+    <dimen name="rounded_corner_radius">106px</dimen>
+    <dimen name="rounded_corner_radius_bottom">106px</dimen>
+    <dimen name="rounded_corner_radius_top">106px</dimen>
+    <dimen name="status_bar_height">93px</dimen>
+    <dimen name="status_bar_height_default">93px</dimen>
+    <dimen name="status_bar_height_portrait">93px</dimen>
+    <dimen name="status_bar_height_landscape">30dip</dimen>
+    <dimen name="quick_qs_offset_height">93px</dimen>
 </resources>
 
 
