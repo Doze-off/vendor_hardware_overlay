@@ -13,5 +13,6 @@
 
     <!-- strings files -->
     <string name="config_mainBuiltInDisplayCutout">M 0,0 H -37 V 93 H 37 V 0 H 0 Z</string>
+    <string name="config_mainBuiltInDisplayCutoutRectApproximation">M 0,0 H -37 V 93 H 37 V 0 H 0 Z</string>
     <string name="config_ims_package">com.mediatek.ims</string>
 </resources>
