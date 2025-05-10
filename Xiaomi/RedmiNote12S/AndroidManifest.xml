@@ -4,7 +4,7 @@
           android:versionName="1.0">
           <overlay android:targetPackage="android"
                 android:requiredSystemPropertyName="ro.product.board"
-                android:requiredSystemPropertyValue="(*ocean*|*sea*)"
+                android:requiredSystemPropertyValue="(ocean*|sea*)"
           android:priority="794"
           android:isStatic="true" />
 </manifest>
