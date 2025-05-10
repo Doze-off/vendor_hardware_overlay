@@ -11,13 +11,6 @@
     <integer name="config_defaultRefreshRate">60</integer>
     <integer name="config_defaultPeakRefreshRate">90</integer>
 
-    <!-- dimens files -->
-    <dimen name="physical_power_button_center_screen_location_y">1025px</dimen>
-    <dimen name="physical_fingerprint_sensor_center_screen_location_y">1025px</dimen>
-    <dimen name="physical_fingerprint_sensor_center_screen_location_x">1080px</dimen>
-    <dimen name="physical_volume_up_button_center_screen_location_y">950px</dimen>
-    <dimen name="physical_volume_down_button_center_screen_location_y">1150px</dimen>
-
     <!-- strings files -->
     <string name="config_mainBuiltInDisplayCutout">M 0,0 H -37 V 93 H 37 V 0 H 0 Z</string>
     <string name="config_mainBuiltInDisplayCutoutRectApproximation">M 0,0 H -37 V 93 H 37 V 0 H 0 Z</string>
