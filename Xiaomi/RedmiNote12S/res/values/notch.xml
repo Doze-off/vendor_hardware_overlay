@@ -3,11 +3,11 @@
     <dimen name="rounded_corner_radius">106.0px</dimen>
     <dimen name="rounded_corner_radius_bottom">106.0px</dimen>
     <dimen name="rounded_corner_radius_top">106.0px</dimen>
-    <dimen name="status_bar_height">105.0px</dimen>
-    <dimen name="status_bar_height_default">105.0px</dimen>
-    <dimen name="status_bar_height_portrait">105.0px</dimen>
+    <dimen name="status_bar_height">110.0px</dimen>
+    <dimen name="status_bar_height_default">110.0px</dimen>
+    <dimen name="status_bar_height_portrait">110.0px</dimen>
     <dimen name="status_bar_height_landscape">30.0dip</dimen>
-    <dimen name="quick_qs_offset_height">105.0px</dimen>
+    <dimen name="quick_qs_offset_height">110.0px</dimen>
 </resources>
 
 
