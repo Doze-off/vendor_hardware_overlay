@@ -4,7 +4,7 @@
     <dimen name="rounded_corner_radius_bottom">106.0px</dimen>
     <dimen name="rounded_corner_radius_top">106.0px</dimen>
     <dimen name="status_bar_height">30dp</dimen>
-    <dimen name="status_bar_height_default">30dp/dimen>
+    <dimen name="status_bar_height_default">30dp</dimen>
     <dimen name="status_bar_height_portrait">30dp</dimen>
     <dimen name="status_bar_height_landscape">30dp</dimen>
     <dimen name="quick_qs_offset_height">30dp</dimen>
