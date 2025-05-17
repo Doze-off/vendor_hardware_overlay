@@ -3,7 +3,7 @@ LOCAL_PATH := $(my-dir)
 include $(CLEAR_VARS)
 
 LOCAL_MODULE := TrebleApp
-LOCAL_SRC_FILES := app.apk
+LOCAL_SRC_FILES := ../../../treble_app/TrebleApp.apk
 LOCAL_MODULE_CLASS := APPS
 LOCAL_MODULE_SUFFIX := .apk
 LOCAL_BUILT_MODULE_STEM := package.apk
