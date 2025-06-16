@@ -66,6 +66,7 @@ PRODUCT_PACKAGES += \
 	treble-overlay-infinix-note30-systemui \
 	treble-overlay-infinix-note30pro \
 	treble-overlay-infinix-note30pro-systemui \
+	treble-overlay-infinix-note40 \
 	treble-overlay-infinix-note40pro \
 	treble-overlay-infinix-note5 \
 	treble-overlay-infinix-note7 \
