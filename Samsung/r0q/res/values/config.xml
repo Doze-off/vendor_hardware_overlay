@@ -1,112 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string-array name="config_Extra_Brightness_Display_Solution_Brightness_Value">
-        <item>1.632</item>
-    </string-array>
-    <string-array name="config_High_Brightness_Mode_Plus_Value">
-        <item>-1,-1,-1,-1,-1,409</item>
-        <item>-1,-1,-1,-1,409,307</item>
-        <item>-1,-1,-1,409,307,307</item>
-        <item>-1,-1,409,307,307,307</item>
-    </string-array>
-    <integer-array name="config_HysteresisBrightInputLux">
-        <item>0</item>
-        <item>10</item>
-        <item>15</item>
-        <item>50</item>
-        <item>100</item>
-        <item>300</item>
-        <item>500</item>
-        <item>1000</item>
-        <item>2000</item>
-        <item>3000</item>
-        <item>4000</item>
-        <item>5000</item>
-        <item>6000</item>
-        <item>7000</item>
-        <item>8000</item>
-        <item>9000</item>
-        <item>10000</item>
-        <item>20000</item>
-        <item>40000</item>
-        <item>50000</item>
-        <item>60000</item>
-    </integer-array>
-    <integer-array name="config_HysteresisBrightOutputLux">
-        <item>10</item>
-        <item>80</item>
-        <item>120</item>
-        <item>300</item>
-        <item>400</item>
-        <item>900</item>
-        <item>1300</item>
-        <item>2000</item>
-        <item>3000</item>
-        <item>4000</item>
-        <item>5000</item>
-        <item>6000</item>
-        <item>7000</item>
-        <item>8000</item>
-        <item>9000</item>
-        <item>10000</item>
-        <item>20000</item>
-        <item>50000</item>
-        <item>50000</item>
-        <item>60000</item>
-        <item>999999</item>
-    </integer-array>
-    <integer-array name="config_HysteresisDarkInputLux">
-        <item>0</item>
-        <item>5</item>
-        <item>9</item>
-        <item>10</item>
-        <item>25</item>
-        <item>50</item>
-        <item>100</item>
-        <item>300</item>
-        <item>500</item>
-        <item>1000</item>
-        <item>2000</item>
-        <item>3000</item>
-        <item>4000</item>
-        <item>5000</item>
-        <item>6000</item>
-        <item>7000</item>
-        <item>8000</item>
-        <item>9000</item>
-        <item>10000</item>
-        <item>20000</item>
-        <item>50000</item>
-    </integer-array>
-    <integer-array name="config_HysteresisDarkOutputLux">
-        <item>-1</item>
-        <item>0</item>
-        <item>0</item>
-        <item>3</item>
-        <item>5</item>
-        <item>10</item>
-        <item>40</item>
-        <item>50</item>
-        <item>60</item>
-        <item>200</item>
-        <item>600</item>
-        <item>2000</item>
-        <item>3000</item>
-        <item>4000</item>
-        <item>5000</item>
-        <item>6000</item>
-        <item>7000</item>
-        <item>8000</item>
-        <item>9000</item>
-        <item>10000</item>
-        <item>20000</item>
-    </integer-array>
-    <integer-array name="config_aodBrightnessValues">
-        <item>0</item>
-        <item>11</item>
-        <item>28</item>
-        <item>49</item>
-    </integer-array>
     <integer-array name="config_autoBrightnessDisplayValuesNits">
         <item>11</item>
         <item>15</item>
@@ -156,10 +49,6 @@
         <item>50000</item>
         <item>999999</item>
     </integer-array>
-    <string-array name="config_mobile_hotspot_provision_app">
-        <item>com.samsung.unifiedtp</item>
-        <item>com.samsung.unifiedtp.ui.TetheringProvisionActivity</item>
-    </string-array>
     <integer-array name="config_screenBrightnessBacklight">
         <item>0</item>
         <item>1</item>
@@ -1186,48 +1075,15 @@
         <item>998.05</item>
         <item>1000</item>
     </array>
-    <integer-array name="config_screenBrightnessRangeForClearView">
-        <item>255</item>
-        <item>510</item>
-    </integer-array>
-    <bool name="config_AFC_enabled">true</bool>
-    <bool name="config_cbrs_supported">true</bool>
-    <bool name="config_dynamic_automatic_brightness_available">true</bool>
+    <bool name="config_automatic_brightness_available">true</bool>
     <bool name="config_showNavigationBar">true</bool>
     <bool name="config_supportAudioSourceUnprocessed">false</bool>
-    <bool name="config_systemCaptionsServiceCallsEnabled">true</bool>
-    <item type="dimen" name="config_letterboxHorizontalPositionMultiplier">0.5</item>
-    <item type="dimen" name="config_letterboxVerticalPositionMultiplier">0.5</item>
-    <item type="dimen" name="config_screenBrightnessDimFloat">0.043137256</item>
-    <item type="dimen" name="config_screenBrightnessSettingDefaultFloat">0.5019608</item>
     <item type="dimen" name="config_screenBrightnessSettingMaximumFloat">1.0</item>
     <item type="dimen" name="config_screenBrightnessSettingMinimumFloat">0.0</item>
-    <dimen name="cover_clear_view_bottom">255.0dip</dimen>
-    <dimen name="cover_clear_view_left">200.0dip</dimen>
-    <dimen name="cover_clear_view_right">360.0dip</dimen>
-    <dimen name="cover_clear_view_rounded_corner">33.0dip</dimen>
-    <dimen name="cover_clear_view_top">1.0dip</dimen>
-    <dimen name="physical_power_button_center_screen_location_y">1140.0px</dimen>
-    <dimen name="status_bar_camera_side_padding">30.0px</dimen>
-    <dimen name="status_bar_camera_top_margin">23.0px</dimen>
     <dimen name="status_bar_height_portrait">4.799988mm</dimen>
-    <dimen name="status_bar_indicator_corner_padding">67.0px</dimen>
-    <integer name="config_AFC_type">8</integer>
-    <integer name="config_AFPC_height">780</integer>
-    <integer name="config_AFPC_model">220101</integer>
-    <integer name="config_AFPC_size">843547</integer>
-    <integer name="config_AFPC_width">360</integer>
-    <integer name="config_acl_version">4</integer>
-    <integer name="config_autoBrightnessHbmAmbientLux">3000</integer>
-    <integer name="config_lowLimitAtHighestAutoBrightnessLevel">255</integer>
-    <integer name="config_minimumBrightnessStepValue">1</integer>
     <integer name="config_screenBrightnessDim">11</integer>
-    <integer name="config_screenBrightnessExtendedMaximum">510</integer>
-    <integer name="config_screenBrightnessForClearView">106</integer>
     <integer name="config_screenBrightnessSettingDefault">128</integer>
     <integer name="config_screenBrightnessSettingMaximum">255</integer>
     <integer name="config_screenBrightnessSettingMinimum">0</integer>
     <string name="config_mainBuiltInDisplayCutout">M 0,0 H -9.333333333333333 V 27 H 9.333333333333333 V 0 H 0 Z @dp</string>
-    <string name="config_mobile_hotspot_provision_app_no_ui">com.samsung.provisioning.SILENT_PROVISIONING_CHECK</string>
-    <string name="config_mobile_hotspot_provision_response">com.samsung.provisioning.SILENT_PROVISIONING_CHECK_RESULT</string>
 </resources>
