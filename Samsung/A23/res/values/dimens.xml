@@ -1,25 +1,11 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!--
-/*
-** Copyright (C) 2023 The LineageOS Project
-**
-** Licensed under the Apache License, Version 2.0 (the "License");
-** you may not use this file except in compliance with the License.
-** You may obtain a copy of the License at
-**
-**     http://www.apache.org/licenses/LICENSE-2.0
-**
-** Unless required by applicable law or agreed to in writing, software
-** distributed under the License is distributed on an "AS IS" BASIS,
-** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-** See the License for the specific language governing permissions and
-** limitations under the License.
-*/
--->
+<?xml version='1.0' encoding='utf-8' ?>
 <resources>
-
-    <!-- Bottom margin size when fingerprint in display is active -->
-    <dimen name="keyguard_indication_margin_bottom">20dp</dimen>
-
+    <float name="config_screenBrightnessDimFloat">0.02745098</float>
+    <float name="config_screenBrightnessSettingDefaultFloat">0.5019608</float>
+    <float name="config_screenBrightnessSettingMaximumFloat">1.0</float>
+    <float name="config_screenBrightnessSettingMinimumFloat">0.003921569</float>
+    <dimen name="status_bar_camera_top_margin">8.0px</dimen>
+    <dimen name="status_bar_height_portrait">4.1799927mm</dimen>
+    <dimen name="status_bar_indicator_padding">64.0px</dimen>
+    <dimen name="keyguard_indication_margin_bottom">20.0dp</dimen>
 </resources>
-
