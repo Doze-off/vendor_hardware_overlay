@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <float name="config_screenBrightnessDimFloat">0.02745098</float>
+    <float name="config_screenBrightnessSettingDefaultFloat">0.5019608</float>
+    <float name="config_screenBrightnessSettingMaximumFloat">1.0</float>
+    <float name="config_screenBrightnessSettingMinimumFloat">0.003921569</float>
+</resources>
