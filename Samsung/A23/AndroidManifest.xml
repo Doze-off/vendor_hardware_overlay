@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    android:versionCode="1"
+    android:versionName="1.0"
+    android:compileSdkVersion="30"
+    android:compileSdkVersionCodename="11"
+    package="me.phh.treble.overlay.samsung.a23"
+    platformBuildVersionCode="30"
+    platformBuildVersionName="11">
+    <application
+        android:extractNativeLibs="false"
+        android:usesNonSdkApi="true"/>
+    <uses-sdk
+        android:minSdkVersion="30"
+        android:targetSdkVersion="30"/>
+    <overlay
+        android:priority="1"
+        android:targetPackage="android"
+        android:isStatic="true"/>
+</manifest>
