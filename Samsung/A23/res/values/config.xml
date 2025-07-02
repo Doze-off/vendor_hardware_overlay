@@ -18,7 +18,7 @@
 
     <!-- ===== DIMENSIONES ===== -->
     <dimen name="keyguard_indication_margin_bottom">20.0dp</dimen>
-    <dimen name="rounded_corner_radius">20.0dip</dimen>
+    <dimen name="rounded_corner_radius">20.0dp</dimen>
     <dimen name="status_bar_camera_top_margin">8.0px</dimen>
     <dimen name="status_bar_height_portrait">4.1799927mm</dimen>
     <dimen name="status_bar_indicator_padding">64.0px</dimen>
@@ -37,23 +37,45 @@
 
     <!-- ===== ARRAYS DE ENTEROS ===== -->
     <integer-array name="config_autoBrightnessLevels">
-        <item>8</item><item>15</item><item>30</item><item>50</item>
-        <item>70</item><item>100</item><item>200</item><item>300</item>
-        <item>500</item><item>700</item><item>1000</item><item>2000</item>
-        <item>3000</item><item>4000</item>
+        <item>8</item>
+        <item>15</item>
+        <item>30</item>
+        <item>50</item>
+        <item>70</item>
+        <item>100</item>
+        <item>200</item>
+        <item>300</item>
+        <item>500</item>
+        <item>700</item>
+        <item>1000</item>
+        <item>2000</item>
+        <item>3000</item>
+        <item>4000</item>
     </integer-array>
 
     <integer-array name="config_autoBrightnessLcdBacklightValues">
-        <item>5</item><item>27</item><item>45</item><item>64</item>
-        <item>66</item><item>68</item><item>72</item><item>74</item>
-        <item>76</item><item>88</item><item>100</item><item>124</item>
-        <item>190</item><item>255</item>
+        <item>5</item>
+        <item>27</item>
+        <item>45</item>
+        <item>64</item>
+        <item>66</item>
+        <item>68</item>
+        <item>72</item>
+        <item>74</item>
+        <item>76</item>
+        <item>88</item>
+        <item>100</item>
+        <item>124</item>
+        <item>190</item>
+        <item>255</item>
     </integer-array>
 
     <!-- ===== ARRAYS DE STRINGS ===== -->
     <string-array name="config_tether_dhcp_range">
-        <item>192.168.42.2</item><item>192.168.42.254</item>
-        <item>192.168.43.2</item><item>192.168.43.254</item>
+        <item>192.168.42.2</item>
+        <item>192.168.42.254</item>
+        <item>192.168.43.2</item>
+        <item>192.168.43.254</item>
     </string-array>
 
     <string-array name="config_tether_upstream_types">
