@@ -1,6 +1,5 @@
 <?xml version='1.0' encoding='utf-8' ?>
 <resources>
-    <bool name="config_systemCaptionsServiceCallsEnabled">true</bool>
     <bool name="config_automatic_brightness_available">true</bool>
     <bool name="config_bluetooth_hfp_inband_ringing_support">true</bool>
     <bool name="config_bluetooth_le_peripheral_mode_supported">true</bool>
@@ -16,6 +15,7 @@
     <bool name="config_speed_up_audio_on_mt_calls">true</bool>
     <bool name="config_supportAudioSourceUnprocessed">true</bool>
     <bool name="config_switch_phone_on_voice_reg_state_change">false</bool>
+    <bool name="config_systemCaptionsServiceCallsEnabled">true</bool>
     <bool name="config_unplugTurnsOnScreen">true</bool>
     <bool name="config_useDevInputEventForAudioJack">true</bool>
     <bool name="config_wifiDisplaySupportsProtectedBuffers">true</bool>

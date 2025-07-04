@@ -4,12 +4,10 @@
     android:versionCode="1"
     android:versionName="1.0"
     package="me.phh.treble.overlay.samsung.a23"
-    platformBuildVersionCode="27"
-    platformBuildVersionName="8.1.0">
+    platformBuildVersionCode="29"
+    platformBuildVersionName="10">
     <overlay
         android:priority="554"
         android:targetPackage="android"
-        android:isStatic="true"
-        android:requiredSystemPropertyName="ro.vendor.build.fingerprint"
-        android:requiredSystemPropertyValue="+*samsung/a23*" />
+        android:isStatic="true"/>
 </manifest>
