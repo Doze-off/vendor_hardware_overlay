@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <device name="Android">
     <item name="none">0</item>
-    <item name="ambient.on">23.9</item>
-    <item name="screen.on">71.6</item>
-    <item name="screen.full">317.4</item>
+    <item name="ambient.on">21.6</item>
+    <item name="screen.on">62.3</item>
+    <item name="screen.full">358.9</item>
     <item name="bluetooth.active">0</item>
     <item name="bluetooth.on">0</item>
     <item name="wifi.on">0</item>
@@ -12,7 +12,7 @@
     <item name="audio">19.4</item>
     <item name="video">28</item>
     <item name="camera.flashlight">115.5</item>
-    <item name="camera.avg">267.8</item>
+    <item name="camera.avg">468.2</item>
     <item name="gps.on">57.6</item>
     <item name="radio.active">193.7</item>
     <item name="radio.scanning">127.9</item>
@@ -149,17 +149,17 @@
         <value>710</value>
         <value>811</value>
     </array>
-    <item name="cpu.suspend">6.47</item>
-    <item name="cpu.idle">31.67</item>
-    <item name="battery.capacity">3590</item>
-    <item name="battery.typical.capacity">3700</item>
-    <item name="bluetooth.controller.idle">6</item>
-    <item name="bluetooth.controller.rx">28</item>
-    <item name="bluetooth.controller.tx">36</item>
-    <item name="bluetooth.controller.voltage">3700</item>
+    <item name="cpu.suspend">7.05</item>
+    <item name="cpu.idle">32.25</item>
+    <item name="battery.capacity">4855</item>
+    <item name="battery.typical.capacity">5000</item>
+    <item name="bluetooth.controller.idle">2</item>
+    <item name="bluetooth.controller.rx">16</item>
+    <item name="bluetooth.controller.tx">30</item>
+    <item name="bluetooth.controller.voltage">3850</item>
     <item name="wifi.controller.idle">1</item>
-    <item name="wifi.controller.rx">130</item>
-    <item name="wifi.controller.tx">420</item>
+    <item name="wifi.controller.rx">90</item>
+    <item name="wifi.controller.tx">410</item>
     <array name="wifi.controller.tx_levels">
         <value>0</value>
     </array>
