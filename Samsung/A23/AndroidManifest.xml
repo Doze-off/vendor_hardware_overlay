@@ -1,13 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- This is a modified version of AXMLPrinter2(By Google) library. Check out how many changes are made at https://github.com/developer-krushna/AXMLPrinter by (@developer-krushna) -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    android:versionCode="1"
-    android:versionName="1.0"
-    package="me.phh.treble.overlay.samsung.a23"
-    platformBuildVersionCode="29"
-    platformBuildVersionName="10">
-    <overlay
-        android:priority="554"
-        android:targetPackage="android"
-        android:isStatic="true"/>
+        package="me.phh.treble.overlay.samsung.a23"
+        android:versionCode="1"
+        android:versionName="1.0">
+        <overlay android:targetPackage="android"
+                android:requiredSystemPropertyName="ro.vendor.build.fingerprint"
+                android:requiredSystemPropertyValue="+*samsung/a23*" 
+                android:priority="554"
+                android:isStatic="true"/>
 </manifest>
