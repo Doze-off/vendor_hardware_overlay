@@ -31,6 +31,7 @@ PRODUCT_PACKAGES += \
 	treble-overlay-essential-ph_1 \
 	treble-overlay-fairphone-fp3 \
 	treble-overlay-highpriomisc \
+	treble-overlay-hotwav-w10pro \
 	treble-overlay-htc-exodus1 \
 	treble-overlay-htc-u12plus \
 	treble-overlay-huawei \
