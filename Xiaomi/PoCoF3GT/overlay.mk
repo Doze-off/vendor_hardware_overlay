@@ -1,0 +1,1 @@
+LOCAL_PACKAGE_NAME := treble-overlay-xiaomi-pocof3gt
