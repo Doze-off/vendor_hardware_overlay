@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="me.phh.treble.overlay.tecno.spark8pro" platformBuildVersionCode="27" platformBuildVersionName="8.1.0">
+    <overlay android:isStatic="true" android:priority="999" android:requiredSystemPropertyName="ro.product.vendor.device" android:requiredSystemPropertyValue="TECNO-KG8" android:targetPackage="android"/>
+</manifest>
