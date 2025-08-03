@@ -1,0 +1,12 @@
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    package="me.phh.treble.overlay.misc.launcher3"
+    android:versionCode="1"
+    android:versionName="1.0">
+    <overlay
+        android:isStatic="true"
+        android:priority="0"
+        android:targetPackage="android"
+        android:requiredSystemPropertyName="persist.sys.phh.launcher3"
+        android:requiredSystemPropertyValue="true" />
+</manifest>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="config_recentsComponentName">com.android.launcher3/com.android.quickstep.RecentsActivity</string>
+    <string name="config_secondaryHomePackage">com.android.launcher3</string>
+    <string name="config_defaultListenerAccessPackages">com.android.launcher3</string>
+</resources>

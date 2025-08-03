@@ -103,6 +103,7 @@ PRODUCT_PACKAGES += \
 	treble-overlay-misc-aod \
 	treble-overlay-misc-aod-systemui \
 	treble-overlay-misc-dt2w \
+	treble-overlay-misc-launcher3 \
 	treble-overlay-misc-biometrics \
 	treble-overlay-misc-minimal-brightness \
 	treble-overlay-misc-spen-pointer \
