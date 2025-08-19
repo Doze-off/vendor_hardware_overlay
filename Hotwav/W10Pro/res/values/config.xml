@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="config_biometric_sensors">
+        <item>0:2:15</item>
+        <item>1:8:4095</item>
+    </string-array>
+
+    <integer-array name="config_autoBrightnessLcdBacklightValues">
+        <item>8</item>
+        <item>64</item>
+        <item>98</item>
+        <item>104</item>
+        <item>110</item>
+        <item>116</item>
+        <item>122</item>
+        <item>128</item>
+        <item>134</item>
+        <item>182</item>
+        <item>255</item>
+        <item>255</item>
+        <item>255</item>
+        <item>255</item>
+        <item>255</item>
+        <item>255</item>
+        <item>255</item>
+        <item>255</item>
+    </integer-array>
+
+    <integer-array name="config_autoBrightnessLevels">
+        <item>128</item>
+        <item>256</item>
+        <item>384</item>
+        <item>512</item>
+        <item>640</item>
+        <item>768</item>
+        <item>896</item>
+        <item>1024</item>
+        <item>2048</item>
+        <item>4096</item>
+        <item>6144</item>
+        <item>8192</item>
+        <item>10240</item>
+        <item>12288</item>
+        <item>14336</item>
+        <item>16384</item>
+        <item>18432</item>
+    </integer-array>
+
+    <item type="dimen" name="config_screenBrightnessSettingDefaultFloat">0.8</item>
+    <item type="dimen" name="config_screenBrightnessSettingMaximumFloat">1.0</item>
+    <item type="dimen" name="config_screenBrightnessSettingMinimumFloat">0.0</item>
+
+    <integer name="default_volume_alarm">12</integer>
+    <integer name="default_volume_call">6</integer>
+    <integer name="default_volume_music">12</integer>
+    <integer name="default_volume_ringer">12</integer>
+    <integer name="default_volume_system">12</integer>
+    <integer name="config_num_physical_slots">2</integer>
+    <integer name="config_screenBrightnessDoze">5</integer>
+    <integer name="config_shortPressOnPowerBehavior">1</integer>
+    <integer name="config_defaultPeakRefreshRate">61</integer>
+    <integer name="config_defaultRefreshRate">61</integer>
+
+    <bool name="config_intrusiveNotificationLed">false</bool>
+    <bool name="config_showNavigationBar">true</bool>
+    <bool name="config_use_linear_brightness_level">true</bool>
+    <bool name="config_wifi_dual_band_support">true</bool>
+    <bool name="config_allow_ussd_over_ims">true</bool>
+    <bool name="config_device_volte_available">false</bool>
+    <bool name="config_device_vt_available">false</bool>
+    <bool name="config_device_wfc_ims_available">false</bool>
+    <bool name="config_enableMultiUserUI">true</bool>
+    <bool name="config_hotswapCapable">true</bool>
+    <bool name="config_setColorTransformAccelerated">true</bool>
+    <bool name="config_switch_phone_on_voice_reg_state_change">false</bool>
+    <bool name="config_unplugTurnsOnScreen">true</bool>
+    <bool name="config_useDevInputEventForAudioJack">true</bool>
+    <bool name="skip_restoring_network_selection">true</bool>
+    <bool name="config_dozeAfterScreenOff">true</bool>
+    <bool name="config_powerDecoupleAutoSuspendModeFromDisplay">true</bool>
+    <bool name="config_powerDecoupleInteractiveModeFromDisplay">true</bool>
+    <bool name="config_supportsCamToggle">true</bool>
+    <bool name="config_supportsMicToggle">true</bool>
+    <bool name="config_automatic_brightness_available">true</bool>
+    <bool name="config_enableWifiDisplay">true</bool>
+    <bool name="config_fillMainBuiltInDisplayCutout">false</bool>
+    <bool name="config_suspendWhenScreenOffDueToProximity">true</bool>
+
+</resources>

@@ -47,7 +47,7 @@
     </array>
     <array
         name="cpu.speeds.cluster0">
-        <value>400000</value>
+        <value>650000</value>
     </array>
     <array
         name="cpu.active.cluster0">
