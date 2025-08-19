@@ -4,7 +4,7 @@
         android:versionName="1.0">
         <overlay android:targetPackage="android"
         	android:requiredSystemPropertyName="ro.vendor.build.fingerprint"
-        	android:requiredSystemPropertyValue="+*HOTWAV/W10_ṕro*"
-		android:priority="600"
+        	android:requiredSystemPropertyValue="+HOTWAV/W10_Pro*"
+		android:priority="999"
 		android:isStatic="true" />
 </manifest>
