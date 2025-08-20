@@ -1,7 +1,0 @@
-<?xml version='1.0' encoding='utf-8' ?>
-<resources>
-    <dimen name="status_bar_camera_top_margin">8.0px</dimen>
-    <dimen name="status_bar_height_portrait">4.1799927mm</dimen>
-    <dimen name="status_bar_indicator_padding">64.0px</dimen>
-    <dimen name="keyguard_indication_margin_bottom">20.0dp</dimen>
-</resources>
