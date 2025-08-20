@@ -3,8 +3,8 @@
         android:versionCode="1"
         android:versionName="1.0">
         <overlay android:targetPackage="android"
-        android:requiredSystemPropertyName="ro.vendor.build.fingerprint"
-        android:requiredSystemPropertyValue="+*amsung/star2qlte*"
+        android:requiredSystemPropertyName="ro.product.device"
+        android:requiredSystemPropertyValue="star2qlte*"
         android:priority="65"
         android:isStatic="true"/>
 </manifest>
