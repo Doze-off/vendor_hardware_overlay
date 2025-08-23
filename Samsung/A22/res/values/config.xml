@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="config_HysteresisBrightInputLux">
+        <item>0</item>
+        <item>8</item>
+        <item>15</item>
+        <item>30</item>
+        <item>50</item>
+        <item>70</item>
+        <item>100</item>
+        <item>200</item>
+        <item>300</item>
+        <item>500</item>
+        <item>700</item>
+        <item>1000</item>
+        <item>1500</item>
+        <item>3000</item>
+    </integer-array>
+    <integer-array name="config_HysteresisBrightOutputLux">
+        <item>15</item>
+        <item>30</item>
+        <item>70</item>
+        <item>100</item>
+        <item>200</item>
+        <item>300</item>
+        <item>500</item>
+        <item>700</item>
+        <item>1000</item>
+        <item>1500</item>
+        <item>1500</item>
+        <item>1500</item>
+        <item>3000</item>
+        <item>3000</item>
+    </integer-array>
+    <integer-array name="config_HysteresisDarkInputLux">
+        <item>0</item>
+        <item>8</item>
+        <item>15</item>
+        <item>30</item>
+        <item>50</item>
+        <item>70</item>
+        <item>100</item>
+        <item>200</item>
+        <item>300</item>
+        <item>500</item>
+        <item>700</item>
+        <item>1000</item>
+        <item>1500</item>
+        <item>3000</item>
+    </integer-array>
+    <integer-array name="config_HysteresisDarkOutputLux">
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>8</item>
+        <item>15</item>
+        <item>30</item>
+        <item>30</item>
+        <item>50</item>
+        <item>70</item>
+        <item>100</item>
+        <item>200</item>
+        <item>300</item>
+        <item>500</item>
+        <item>1000</item>
+    </integer-array>
+    <integer-array name="config_aodBrightnessValues">
+        <item>0</item>
+        <item>12</item>
+        <item>32</item>
+        <item>56</item>
+    </integer-array>
+    <integer-array name="config_autoBrightnessLcdBacklightValues">
+        <item>13</item>
+        <item>40</item>
+        <item>67</item>
+        <item>88</item>
+        <item>91</item>
+        <item>93</item>
+        <item>96</item>
+        <item>100</item>
+        <item>105</item>
+        <item>119</item>
+        <item>138</item>
+        <item>155</item>
+        <item>255</item>
+        <item>365</item>
+    </integer-array>
+    <integer-array name="config_autoBrightnessLevels">
+        <item>8</item>
+        <item>15</item>
+        <item>30</item>
+        <item>50</item>
+        <item>70</item>
+        <item>100</item>
+        <item>200</item>
+        <item>300</item>
+        <item>500</item>
+        <item>700</item>
+        <item>1000</item>
+        <item>1500</item>
+        <item>3000</item>
+    </integer-array>
+    <string-array name="config_defaultPinnerServiceFiles">
+        <item>/system/framework/arm/boot-mediatek-framework.vdex</item>
+        <item>/system/lib/libjavacrypto.so</item>
+        <item>/system/lib/libhidltransport.so</item>
+        <item>/system/framework/arm/boot-core-libart.oat</item>
+        <item>/system/framework/arm/boot-conscrypt.oat</item>
+        <item>/system/framework/arm/boot-core-libart.vdex</item>
+        <item>/system/framework/arm/boot-ext.vdex</item>
+        <item>/system/framework/arm/boot.vdex</item>
+        <item>/system/framework/arm/boot-framework.vdex</item>
+    </string-array>
+    <string-array name="config_network_type_tcp_buffers">
+        <item>GPRS:4092,8760,48000,4096,8760,48000</item>
+        <item>EDGE:4093,26280,70800,4096,16384,70800</item>
+        <item>UMTS:58254,349525,1048576,58254,349525,1048576</item>
+        <item>CDMA:4094,87380,262144,4096,16384,262144</item>
+        <item>1xRTT:16384,32768,131072,4096,16384,102400</item>
+        <item>EvDo_0:4094,87380,262144,4096,16384,262144</item>
+        <item>EvDo_A:4094,87380,262144,4096,16384,262144</item>
+        <item>HSDPA:61167,367002,1101005,8738,52429,262114</item>
+        <item>HSUPA:40778,244668,734003,16777,100663,301990</item>
+        <item>HSPA:40778,244668,734003,16777,100663,301990</item>
+        <item>EvDo_B:4094,87380,262144,4096,16384,262144</item>
+        <item>eHRPD:131072,262144,1048576,4096,16384,524288</item>
+        <item>iDEN:4094,87380,262144,4096,16384,262144</item>
+        <item>LTE:2097152,4194304,8388608,262144,524288,2097152</item>
+        <item>HSPA+:122334,734003,2202010,32040,192239,576717</item>
+        <item>GSM:4092,8760,48000,4096,8760,48000</item>
+        <item>TD_SCDMA:58254,349525,1048576,58254,349525,1048576</item>
+        <item>LTE_CA:4096,6291456,12582912,4096,1048576,2097152</item>
+        <item>NR_NSA:2097152,6291456,16777216,512000,2097152,8388608</item>
+        <item>NR_NSA_MMWAVE:2097152,6291456,16777216,512000,2097152,8388608</item>
+        <item>NR_SA:2097152,6291456,16777216,512000,2097152,8388608</item>
+        <item>NR_SA_MMWAVE:2097152,6291456,16777216,512000,2097152,8388608</item>
+    </string-array>
+    <string-array name="config_tether_bluetooth_regexs">
+        <item>bt-pan</item>
+        <item>bt-dun</item>
+    </string-array>
+    <string-array name="config_tether_usb_regexs">
+        <item>rndis\\d</item>
+    </string-array>
+    <string-array name="config_tether_wifi_regexs">
+        <item>ap\\d</item>
+    </string-array>
+    <string-array name="networkAttributes">
+        <item>wifi,1,1,1,-1,true</item>
+        <item>mobile,0,0,0,-1,true</item>
+        <item>mobile_mms,2,0,2,60000,true</item>
+        <item>mobile_supl,3,0,2,60000,true</item>
+        <item>mobile_dun,4,0,2,60000,true</item>
+        <item>mobile_hipri,5,0,3,60000,true</item>
+        <item>ethernet,9,9,9,-1,true</item>
+        <item>mobile_fota,10,0,2,60000,true</item>
+        <item>mobile_ims,11,0,-1,-1,true</item>
+        <item>mobile_cbs,12,0,2,60000,true</item>
+        <item>wifi_p2p,13,1,0,-1,true</item>
+        <item>mobile_ia,14,0,2,-1,true</item>
+        <item>mobile_emergency,15,0,2,-1,true</item>
+        <item>mobile_mcx,1001,0,3,60000,true</item>
+        <item>mobile_xcap,1002,0,3,60000,true</item>
+        <item>mobile_rcs,2001,0,3,60000,true</item>
+        <item>mobile_bip,2002,0,3,60000,true</item>
+        <item>mobile_vsim,2003,0,-1,60000,true</item>
+    </string-array>
+    <bool name="config_adaptive_display_solution_enabled">true</bool>
+    <bool name="config_all_around_sensing_enabled">false</bool>
+    <bool name="config_allow_ussd_over_ims">true</bool>
+    <bool name="config_big_data_logging_enabled">false</bool>
+    <bool name="config_device_volte_available">false</bool>
+    <bool name="config_device_vt_available">false</bool>
+    <bool name="config_device_wfc_ims_available">false</bool>
+    <bool name="config_dynamic_automatic_brightness_available">true</bool>
+    <bool name="config_eye_comfort_solution_enabled">true</bool>
+    <bool name="config_fillMainBuiltInDisplayCutout">true</bool>
+    <bool name="config_hearing_aid_profile_supported">false</bool>
+    <bool name="config_hotswapCapable">true</bool>
+    <bool name="config_mdnie_scenario_control_enabled">true</bool>
+    <bool name="config_setColorTransformAccelerated">true</bool>
+    <bool name="config_supportAudioSourceUnprocessed">false</bool>
+    <bool name="config_switch_phone_on_voice_reg_state_change">false</bool>
+    <bool name="config_useDevInputEventForAudioJack">true</bool>
+    <bool name="skip_restoring_network_selection">true</bool>
+    <item type="dimen" name="config_screenBrightnessDimFloat">0.047058824</item>
+    <item type="dimen" name="config_screenBrightnessSettingDefaultFloat">0.46666667</item>
+    <item type="dimen" name="config_screenBrightnessSettingMaximumFloat">1.0</item>
+    <item type="dimen" name="config_screenBrightnessSettingMinimumFloat">0.0</item>
+    <dimen name="rounded_corner_radius">77.29999px</dimen>
+    <dimen name="status_bar_camera_cutout_crop_size">60.0px</dimen>
+    <dimen name="status_bar_height_portrait">4.939972mm</dimen>
+    <dimen name="status_bar_indicator_corner_padding">45.0px</dimen>
+    <integer name="config_autoBrightnessHbmAmbientLux">3000</integer>
+    <integer name="config_lowLimitAtHighestAutoBrightnessLevel">255</integer>
+    <integer name="config_minimumBrightnessStepValue">1</integer>
+    <integer name="config_screenBrightnessDim">12</integer>
+    <integer name="config_screenBrightnessExtendedMaximum">365</integer>
+    <integer name="config_screenBrightnessSettingDefault">119</integer>
+    <integer name="config_screenBrightnessSettingMaximum">255</integer>
+    <integer name="config_screenBrightnessSettingMinimum">0</integer>
+    <integer name="config_valueOfVirtualZeroCandela">0</integer>
+    <string name="config_mainBuiltInDisplayCutout">M62.05,0l-2.7,0l-2.7,0l-1.4,0.1L53.95,0.2l-1.3,0.2l-1.3,0.2L49.95,0.9l-1.3,0.4l-1.3,0.5l-1.2,0.6L44.95,3 l-1.1,0.7l-1,0.8l-1,0.9l-0.9,1l-0.8,1l-0.7,1.1l-0.7,1.2l-0.6,1.2l-0.5,1.3l-0.4,1.3l-0.4,1.3l-0.5,2.3l-0.4,2.3l-0.4,2.3L34.95,23.9 l-0.6,2.3l-0.7,2.2l-0.4,1.1L32.95,30.6l-0.5,1.1L31.95,32.7c-3.5,7.2-9.3,13.1-16.6,16.6c-17.7,8.5-38.9,1.1-47.4-16.6l-0.5-1.1 l-0.5-1.1l-0.4-1.1l-0.4-1.1l-0.7-2.2l-0.6-2.3l-0.5-2.3l-0.4-2.3l-0.4-2.3l-0.5-2.3l-0.4-1.3l-0.4-1.3L-38.15,11l-0.6-1.2l-0.7-1.2 L-40.05,7.5l-0.8-1l-0.9-1l-1-0.9l-1-0.8L-44.95,3l-1.2-0.6l-1.2-0.6l-1.3-0.5l-1.3-0.4l-1.3-0.3L-52.55,0.4L-53.95,0.2L-55.25,0.1L-56.65,0L-59.35,0 L-62.05,0Z</string>
+    <string name="config_mms_user_agent">Android-Mms/0.1</string>
+    <string name="config_mms_user_agent_profile_url">http://www.google.com/oha/rdf/ua-profile-kila.xml</string>
+    <string name="config_qualified_networks_service_package">com.android.phone</string>
+    <string name="config_wallpaperCropperPackage">com.android.wallpaperpicker</string>
+    <string name="config_wifi_tcp_buffers">1730560,3461120,6922240,524288,1048576,4525824</string>
+    <string name="config_wlan_data_service_class">com.mediatek.internal.telephony.data.IwlanDataService</string>
+    <string name="config_wlan_data_service_package">com.android.phone</string>
+    <string name="config_wlan_network_service_class">com.mediatek.internal.telephony.IWlanNetworkService</string>
+    <string name="config_wlan_network_service_package">com.android.phone</string>
+</resources>
