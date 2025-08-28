@@ -3,8 +3,8 @@
         android:versionCode="1"
         android:versionName="1.0">
         <overlay android:targetPackage="com.android.systemui"
-                android:requiredSystemPropertyName="ro.vendor.build.fingerprint"
-                android:requiredSystemPropertyValue="+*samsung/r0q*"
+                android:requiredSystemPropertyName="ro.product.device"
+                android:requiredSystemPropertyValue="r0q"
 				android:priority="978"
 				android:isStatic="true" />
 </manifest>
