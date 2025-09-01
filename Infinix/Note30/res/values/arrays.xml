@@ -85,11 +85,25 @@
         <item>548.933</item>
         <item>580</item>
     </array>
+    <string-array name="config_defaultPinnerServiceFiles">
+        <item>/apex/com.android.art/javalib/core-oj.jar</item>
+        <item>/apex/com.android.art/javalib/core-libart.jar</item>
+        <item>/system/framework/framework.jar</item>
+        <item>/system/framework/services.jar</item>
+        <item>/system/bin/surfaceflinger</item>
+        <item>/system_ext/priv-app/SystemUI/SystemUI.apk</item>
+    </string-array>
     <string-array name="config_tether_usb_regexs">
         <item>rndis\\d</item>
     </string-array>
     <string-array name="config_tether_wifi_regexs">
         <item>ap\\d</item>
+    </string-array>
+    <string-array name="config_biometric_sensors">
+        <item>0:2:15</item>
+    </string-array>
+    <string-array name="config_ephemeralResolverPackage">
+        <item>com.google.android.gms</item>
     </string-array>
     <string-array name="networkAttributes">
         <item>wifi,1,1,1,-1,true</item>
