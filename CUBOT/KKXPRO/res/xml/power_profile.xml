@@ -1,205 +1,79 @@
 <?xml version="1.0" encoding="utf-8"?>
-<device
-    android:name="Android">
-    <item
-        android:name="ambient.on">
-        0.1
-    </item>
-    <item
-        android:name="screen.on">
-        0.1
-    </item>
-    <item
-        android:name="screen.full">
-        0.1
-    </item>
-    <item
-        android:name="bluetooth.active">
-        0.1
-    </item>
-    <item
-        android:name="bluetooth.on">
-        0.1
-    </item>
-    <item
-        android:name="wifi.on">
-        0.1
-    </item>
-    <item
-        android:name="wifi.active">
-        0.1
-    </item>
-    <item
-        android:name="wifi.scan">
-        0.1
-    </item>
-    <item
-        android:name="audio">
-        0.1
-    </item>
-    <item
-        android:name="video">
-        0.1
-    </item>
-    <item
-        android:name="camera.flashlight">
-        0.1
-    </item>
-    <item
-        android:name="camera.avg">
-        0.1
-    </item>
-    <item
-        android:name="gps.on">
-        0.1
-    </item>
-    <item
-        android:name="radio.active">
-        0.1
-    </item>
-    <item
-        android:name="radio.scanning">
-        0.1
-    </item>
-    <array
-        android:name="radio.on">
-        <value>
-            0.2
-        </value>
-        <value>
-            0.1
-        </value>
+<device xmlns:android="http://schemas.android.com/apk/res/android"
+        android:name="Android">
+
+    <item android:name="ambient.on">0.1</item>
+    <item android:name="screen.on">0.1</item>
+    <item android:name="screen.full">0.1</item>
+    <item android:name="bluetooth.active">0.1</item>
+    <item android:name="bluetooth.on">0.1</item>
+    <item android:name="wifi.on">0.1</item>
+    <item android:name="wifi.active">0.1</item>
+    <item android:name="wifi.scan">0.1</item>
+    <item android:name="audio">0.1</item>
+    <item android:name="video">0.1</item>
+    <item android:name="camera.flashlight">0.1</item>
+    <item android:name="camera.avg">0.1</item>
+    <item android:name="gps.on">0.1</item>
+    <item android:name="radio.active">0.1</item>
+    <item android:name="radio.scanning">0.1</item>
+
+    <array android:name="radio.on">
+        <value>0.2</value>
+        <value>0.1</value>
     </array>
-    <array
-        android:name="cpu.clusters.cores">
-        <value>
-            1
-        </value>
+
+    <array android:name="cpu.clusters.cores">
+        <value>1</value>
     </array>
-    <array
-        android:name="cpu.speeds.cluster0">
-        <value>
-            400000
-        </value>
+    <array android:name="cpu.speeds.cluster0">
+        <value>400000</value>
     </array>
-    <array
-        android:name="cpu.active.cluster0">
-        <value>
-            0.1
-        </value>
+    <array android:name="cpu.active.cluster0">
+        <value>0.1</value>
     </array>
-    <item
-        android:name="cpu.idle">
-        0.1
-    </item>
-    <item
-        android:name="cpu.suspend">
-        5
-    </item>
-    <item
-        android:name="cpu.active">
-        2.55
-    </item>
-    . 
-    <item
-        android:name="cpu.cluster_power.cluster0">
-        2.11
-    </item>
-    <item
-        android:name="cpu.cluster_power.cluster1">
-        2.22
-    </item>
-    <array
-        android:name="memory.bandwidths">
-        <value>
-            22.7
-        </value>
+
+    <item android:name="cpu.idle">0.1</item>
+    <item android:name="cpu.suspend">5</item>
+    <item android:name="cpu.active">2.55</item>
+    <item android:name="cpu.cluster_power.cluster0">2.11</item>
+    <item android:name="cpu.cluster_power.cluster1">2.22</item>
+
+    <array android:name="memory.bandwidths">
+        <value>22.7</value>
     </array>
-    <item
-        android:name="battery.capacity">
-        10200
-    </item>
-    <item
-        android:name="wifi.controller.idle">
-        0
-    </item>
-    <item
-        android:name="wifi.controller.rx">
-        0
-    </item>
-    <item
-        android:name="wifi.controller.tx">
-        0
-    </item>
-    <array
-        android:name="wifi.controller.tx_levels" />
-    <item
-        android:name="wifi.controller.voltage">
-        0
-    </item>
-    <array
-        android:name="wifi.batchedscan">
-        <value>
-            .0002
-        </value>
-        <value>
-            .002
-        </value>
-        <value>
-            .02
-        </value>
-        <value>
-            .2
-        </value>
-        <value>
-            2
-        </value>
+
+    <item android:name="battery.capacity">10200</item>
+
+    <item android:name="wifi.controller.idle">0</item>
+    <item android:name="wifi.controller.rx">0</item>
+    <item android:name="wifi.controller.tx">0</item>
+    <array android:name="wifi.controller.tx_levels"/>
+    <item android:name="wifi.controller.voltage">0</item>
+
+    <array android:name="wifi.batchedscan">
+        <value>0.0002</value>
+        <value>0.002</value>
+        <value>0.02</value>
+        <value>0.2</value>
+        <value>2</value>
     </array>
-    <item
-        android:name="modem.controller.sleep">
-        0
-    </item>
-    <item
-        android:name="modem.controller.idle">
-        0
-    </item>
-    <item
-        android:name="modem.controller.rx">
-        0
-    </item>
-    <array
-        android:name="modem.controller.tx">
-        <value>
-            0
-        </value>
-        <value>
-            0
-        </value>
-        <value>
-            0
-        </value>
-        <value>
-            0
-        </value>
-        <value>
-            0
-        </value>
+
+    <item android:name="modem.controller.sleep">0</item>
+    <item android:name="modem.controller.idle">0</item>
+    <item android:name="modem.controller.rx">0</item>
+    <array android:name="modem.controller.tx">
+        <value>0</value>
+        <value>0</value>
+        <value>0</value>
+        <value>0</value>
+        <value>0</value>
     </array>
-    <item
-        android:name="modem.controller.voltage">
-        0
-    </item>
-    <array
-        android:name="gps.signalqualitybased">
-        <value>
-            0
-        </value>
-        <value>
-            0
-        </value>
+    <item android:name="modem.controller.voltage">0</item>
+
+    <array android:name="gps.signalqualitybased">
+        <value>0</value>
+        <value>0</value>
     </array>
-    <item
-        android:name="gps.voltage">
-        0
-    </item>
+    <item android:name="gps.voltage">0</item>
 </device>
