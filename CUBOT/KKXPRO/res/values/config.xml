@@ -28,13 +28,8 @@
     <bool name="config_dozeAfterScreenOff">true</bool>
     <bool name="config_powerDecoupleAutoSuspendModeFromDisplay">true</bool>
     <bool name="config_powerDecoupleInteractiveModeFromDisplay">true</bool>
-    <bool name="config_showNavigationBar">true</bool>
     <bool name="config_supportsCamToggle">true</bool>
     <bool name="config_supportsMicToggle">true</bool>
-    <float name="config_screenBrightnessSettingDefaultFloat">0.7037</float>
-    <float name="config_screenBrightnessSettingMaximumFloat">1.0</float>
-    <float name="config_screenBrightnessSettingMinimumFloat">0.005</float>
-    resources>
     <integer name="config_num_physical_slots">2</integer>
     <integer name="config_screenBrightnessDoze">5</integer>
     <integer name="config_shortPressOnPowerBehavior">1</integer>
@@ -98,4 +93,7 @@
     <bool name="config_suspendWhenScreenOffDueToProximity">true</bool>
     <integer name="config_defaultPeakRefreshRate">60</integer>
     <integer name="config_defaultRefreshRate">60</integer>
+    <dimen name="config_screenBrightnessSettingDefaultFloat">0.7037dp</dimen>
+    <dimen name="config_screenBrightnessSettingMaximumFloat">1.0dp</dimen>
+    <dimen name="config_screenBrightnessSettingMinimumFloat">0.005dp</dimen>
 </resources>
