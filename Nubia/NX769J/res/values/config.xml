@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Arrays.xml -->
+      <integer-array name="config_ambientBrighteningThresholds">
+        <item>9000</item>
+        <item>4000</item>
+        <item>3000</item>
+        <item>2000</item>
+        <item>1000</item>
+        <item>800</item>
+        <item>600</item>
+        <item>300</item>
+        <item>100</item>
+    </integer-array>
+    <integer-array name="config_ambientDarkeningThresholds">
+        <item>200</item>
+        <item>200</item>
+        <item>200</item>
+        <item>200</item>
+        <item>200</item>
+        <item>200</item>
+        <item>200</item>
+        <item>200</item>
+        <item>200</item>
+    </integer-array>
+    <integer-array name="config_ambientThresholdLevels">
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>6</item>
+        <item>10</item>
+        <item>50</item>
+        <item>100</item>
+        <item>300</item>
+    </integer-array>
+    <array name="config_autoBrightnessDisplayValuesNits">
+        <item>4.2</item>
+        <item>23.64</item>
+        <item>60.13</item>
+        <item>98.97</item>
+        <item>116.8</item>
+        <item>157.8</item>
+        <item>190.8</item>
+        <item>315.0</item>
+        <item>549.2</item>
+    </array>
+    <integer-array name="config_autoBrightnessLevels">
+        <item>10</item>
+        <item>50</item>
+        <item>100</item>
+        <item>220</item>
+        <item>420</item>
+        <item>1500</item>
+        <item>3000</item>
+        <item>5000</item>
+    </integer-array>
+    <string-array name="config_defaultPinnerServiceFiles">
+            <item>/vendor/lib64/hw/audio.primary.pineapple.so</item>
+            <item>/vendor/lib64/hw/android.hardware.audio@7.1-impl.so</item>
+    </string-array>
+    <string-array name="config_biometric_sensors">
+        <item>0:2:15</item>
+    </string-array>
+    <array name="config_dcBrightnessSamplePointsX">
+        <item>0.0</item>
+        <item>0.0827</item>
+        <item>0.1693</item>
+        <item>0.256</item>
+        <item>0.3425</item>
+        <item>0.4291</item>
+        <item>0.52</item>
+    </array>
+    <array name="config_dcBrightnessSamplePointsY">
+        <item>0.185</item>
+        <item>0.245</item>
+        <item>0.3623</item>
+        <item>0.5122</item>
+        <item>0.6771</item>
+        <item>0.827</item>
+        <item>1.0</item>
+    </array>
+    <integer-array name="config_longPressVibePattern">
+        <item>0</item>
+        <item>50</item>
+    </integer-array>
+    <integer-array name="config_screenBrightnessBacklight">
+        <item>0</item>
+        <item>2</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+        <item>35</item>
+        <item>40</item>
+        <item>45</item>
+        <item>50</item>
+        <item>55</item>
+        <item>60</item>
+        <item>65</item>
+        <item>70</item>
+        <item>75</item>
+        <item>80</item>
+        <item>85</item>
+        <item>90</item>
+        <item>95</item>
+        <item>100</item>
+        <item>105</item>
+        <item>110</item>
+        <item>115</item>
+        <item>120</item>
+        <item>125</item>
+        <item>130</item>
+        <item>135</item>
+        <item>140</item>
+        <item>145</item>
+        <item>150</item>
+        <item>155</item>
+        <item>160</item>
+        <item>165</item>
+        <item>170</item>
+        <item>175</item>
+        <item>180</item>
+        <item>185</item>
+        <item>190</item>
+        <item>195</item>
+        <item>200</item>
+        <item>205</item>
+        <item>210</item>
+        <item>215</item>
+        <item>220</item>
+        <item>225</item>
+        <item>230</item>
+        <item>235</item>
+        <item>240</item>
+        <item>245</item>
+        <item>250</item>
+        <item>255</item>
+    </integer-array>
+    <array name="config_screenBrightnessNits">
+        <item>0.0</item>
+        <item>3.2</item>
+        <item>3.7</item>
+        <item>4.2</item>
+        <item>4.6</item>
+        <item>5.1</item>
+        <item>6.1</item>
+        <item>7.5</item>
+        <item>9.3</item>
+        <item>11.2</item>
+        <item>13.3</item>
+        <item>16.4</item>
+        <item>19.9</item>
+        <item>23.5</item>
+        <item>26.9</item>
+        <item>31.8</item>
+        <item>36.4</item>
+        <item>42.8</item>
+        <item>47.1</item>
+        <item>54.2</item>
+        <item>59.5</item>
+        <item>66.4</item>
+        <item>75.2</item>
+        <item>85.1</item>
+        <item>93.5</item>
+        <item>102.1</item>
+        <item>111.8</item>
+        <item>125.4</item>
+        <item>135.9</item>
+        <item>146.1</item>
+        <item>157.1</item>
+        <item>168.8</item>
+        <item>180.5</item>
+        <item>194.1</item>
+        <item>207.5</item>
+        <item>222.3</item>
+        <item>237.8</item>
+        <item>253.1</item>
+        <item>269.5</item>
+        <item>284.9</item>
+        <item>300.1</item>
+        <item>318.8</item>
+        <item>336.6</item>
+        <item>351.4</item>
+        <item>375.1</item>
+        <item>394.5</item>
+        <item>414.5</item>
+        <item>434.2</item>
+        <item>456.5</item>
+        <item>479.2</item>
+        <item>500.4</item>
+        <item>522.9</item>
+        <item>549.2</item>
+    </array>
+    <integer-array name="config_virtualKeyVibePattern">
+        <item>0</item>
+        <item>30</item>
+    </integer-array>
+
+    <!-- Bools.xml -->
+        <bool name="config_fillMainBuiltInDisplayCutout">false</bool>
+
+    <!-- Fractions.xml -->
+        <fraction name="config_autoBrightnessAdjustmentMaxGamma">100.0%</fraction>
+
+    <!-- Integers.xml -->
+        <integer name="config_brightness_ramp_decreas_rate_slow">10</integer>
+        <integer name="config_defaultNightMode">2</integer>
+  
+    <!-- Public.xml -->
+        <public type="array" name="config_ambientBrighteningThresholds" id="0x7f010000" />
+        <public type="array" name="config_ambientDarkeningThresholds" id="0x7f010001" />
+        <public type="array" name="config_ambientThresholdLevels" id="0x7f010002" />
+        <public type="array" name="config_autoBrightnessDisplayValuesNits" id="0x7f010003" />
+        <public type="array" name="config_autoBrightnessLevels" id="0x7f010004" />
+        <public type="array" name="config_biometric_sensors" id="0x7f010005" />
+        <public type="array" name="config_dcBrightnessSamplePointsX" id="0x7f010006" />
+        <public type="array" name="config_dcBrightnessSamplePointsY" id="0x7f010007" />
+        <public type="array" name="config_longPressVibePattern" id="0x7f010008" />
+        <public type="array" name="config_screenBrightnessBacklight" id="0x7f010009" />
+        <public type="array" name="config_screenBrightnessNits" id="0x7f01000a" />
+        <public type="array" name="config_virtualKeyVibePattern" id="0x7f01000b" />
+        <public type="bool" name="config_fillMainBuiltInDisplayCutout" id="0x7f020000" />
+        <public type="drawable" name="default_wallpaper" id="0x7f030000" />
+        <public type="fraction" name="config_autoBrightnessAdjustmentMaxGamma" id="0x7f040000" />
+        <public type="integer" name="config_brightness_ramp_decreas_rate_slow" id="0x7f050000" />
+        <public type="integer" name="config_defaultNightMode" id="0x7f050001" />
+        <public type="string" name="config_mainBuiltInDisplayCutout" id="0x7f060000" />
+        <public type="string" name="config_mms_user_agent" id="0x7f060001" />
+        <public type="string" name="config_mms_user_agent_profile_url" id="0x7f060002" />
+        <public type="string" name="default_wallpaper_component" id="0x7f060003" />
+
+    <!-- Strings.xml -->
+        <string name="config_mainBuiltInDisplayCutout" />
+        <string name="config_mms_user_agent">NX769J/MMS/ZTE-Android-MMS-V2.0</string>
+        <string name="config_mms_user_agent_profile_url">https://res-www.zte.com.cn/bigmediafiles/device/uaprof/NX769J.xml</string>
+        <string name="default_wallpaper_component">com.zte.livewallpaper/.LiveWallpaper_rm14b7_Service</string>
+</resources>
