@@ -3,7 +3,7 @@ name: Overlay
 on:
   pull_request:
     branches: [pie]
-
+     if: github.event.repository.owner.id == github.event.sender.id
 jobs:
   build:
     runs-on: ubuntu-latest
