@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="config_autoBrightnessButtonBacklightValues"> </array>
+    <array name="config_autoBrightnessLcdBacklightValues"> </array>
+    <array name="config_autoBrightnessLevels"> </array>
+    <array name="config_defaultPinnerServiceFiles"> </array>
+    <array name="config_longPressVibePattern">
+        <item>@null</item>
+        <item>30</item>
+    </array>
+    <array name="config_tether_bluetooth_regexs"> </array>
+    <array name="config_tether_upstream_types">
+        <item>1</item>
+        <item>7</item>
+        <item>@null</item>
+    </array>
+    <array name="config_tether_usb_regexs"> </array>
+    <array name="config_tether_wifi_regexs"> </array>
+    <array name="config_virtualKeyVibePattern">
+        <item>@null</item>
+        <item>20</item>
+    </array>
+    <array name="config_autoBrightnessDisplayValuesNits"> </array>
+    <array name="config_screenBrightnessBacklight"> </array>
+    <array name="config_screenBrightnessNits"> </array>
+    <array name="config_defaultNotificationVibePattern">
+        <item>@null</item>
+        <item>350</item>
+        <item>250</item>
+        <item>350</item>
+    </array>
+    <array name="config_ephemeralResolverPackage"> </array>
+    <array name="config_lteDbmThresholds">
+        <item>-140</item>
+        <item>-128</item>
+        <item>-118</item>
+        <item>-108</item>
+        <item>-98</item>
+        <item>-44</item>
+    </array>
+    <array name="config_mobile_tcp_buffers"> </array>
+    <array name="config_notificationFallbackVibePattern">
+        <item>@null</item>
+        <item>100</item>
+        <item>150</item>
+        <item>100</item>
+    </array>
+    <array name="networkAttributes">
+        <item>wifi,1,1,1,-1,true</item>
+        <item>mobile,0,0,0,-1,true</item>
+        <item>mobile_mms,2,0,2,60000,true</item>
+        <item>mobile_supl,3,0,2,60000,true</item>
+        <item>mobile_dun,4,0,2,60000,true</item>
+        <item>mobile_hipri,5,0,3,60000,true</item>
+        <item>mobile_fota,10,0,2,60000,true</item>
+        <item>mobile_ims,11,0,2,60000,true</item>
+        <item>mobile_cbs,12,0,2,60000,true</item>
+        <item>wifi_p2p,13,1,0,-1,true</item>
+        <item>mobile_ia,14,0,2,-1,true</item>
+        <item>mobile_emergency,15,0,2,-1,true</item>
+    </array>
+    <array name="radioAttributes">
+        <item>1,1</item>
+        <item>0,1</item>
+    </array>
+    <array name="config_minimumBrightnessCurveNits">
+        <item>@null</item>
+        <item>50</item>
+        <item>90</item>
+    </array>
+    <array name="config_availableColorModes"> </array>
+    <array name="config_ambientBrighteningThresholds">
+        <item>100</item>
+    </array>
+    <array name="config_ambientDarkeningThresholds">
+        <item>200</item>
+    </array>
+    <array name="config_ambientThresholdLevels"> </array>
+    <array name="config_screenBrighteningThresholds">
+        <item>100</item>
+    </array>
+    <array name="config_screenDarkeningThresholds">
+        <item>200</item>
+    </array>
+    <array name="config_biometric_sensors"> </array>
+    <array name="config_safeModeEnabledVibePattern">
+        <item>@null</item>
+        <item>1</item>
+        <item>20</item>
+        <item>21</item>
+        <item>500</item>
+        <item>600</item>
+    </array>
+
+    <bool name="config_allowAutoBrightnessWhileDozing">false</bool>
+    <bool name="config_autoBrightnessResetAmbientLuxAfterWarmUp">true</bool>
+    <bool name="config_auto_attach_data_on_creation">true</bool>
+    <bool name="config_automatic_brightness_available">false</bool>
+    <bool name="config_carrier_volte_available">false</bool>
+    <bool name="config_carrier_wfc_ims_available">false</bool>
+    <bool name="config_device_volte_available">false</bool>
+    <bool name="config_device_vt_available">false</bool>
+    <bool name="config_device_wfc_ims_available">false</bool>
+    <bool name="config_displayBlanksAfterDoze">false</bool>
+    <bool name="config_dozeAfterScreenOffByDefault">false</bool>
+    <bool name="config_dozeAlwaysOnDisplayAvailable">false</bool>
+    <bool name="config_hotswapCapable">false</bool>
+    <bool name="config_intrusiveNotificationLed">false</bool>
+    <bool name="config_lidControlsSleep">false</bool>
+    <bool name="config_nightDisplayAvailable">@bool/config_setColorTransformAccelerated</bool>
+    <bool name="config_pinnerCameraApp">false</bool>
+    <bool name="config_pinnerHomeApp">false</bool>
+    <bool name="config_powerDecoupleAutoSuspendModeFromDisplay">false</bool>
+    <bool name="config_powerDecoupleInteractiveModeFromDisplay">false</bool>
+    <bool name="config_setColorTransformAccelerated">false</bool>
+    <bool name="config_showNavigationBar">false</bool>
+    <bool name="config_speed_up_audio_on_mt_calls">false</bool>
+    <bool name="config_supportAudioSourceUnprocessed">false</bool>
+    <bool name="config_supportSystemNavigationKeys">false</bool>
+    <bool name="config_suspendWhenScreenOffDueToProximity">false</bool>
+    <bool name="config_sustainedPerformanceModeSupported">false</bool>
+    <bool name="config_switch_phone_on_voice_reg_state_change">true</bool>
+    <bool name="config_useDevInputEventForAudioJack">false</bool>
+    <bool name="config_use_sim_language_file">false</bool>
+    <bool name="config_wifiDisplaySupportsProtectedBuffers">false</bool>
+    <bool name="skip_restoring_network_selection">false</bool>
+    <bool name="config_supportDoubleTapWake">false</bool>
+    <bool name="config_dozePulsePickup">false</bool>
+    <bool name="config_fillMainBuiltInDisplayCutout">false</bool>
+    <bool name="config_enableBurnInProtection">false</bool>
+    <bool name="config_enableFusedLocationOverlay">true</bool>
+    <bool name="config_enableNetworkLocationOverlay">true</bool>
+    <bool name="config_dozeSupportsAodWallpaper">true</bool>
+    <bool name="config_displayBrightnessBucketsInDoze">false</bool>
+    <bool name="config_fingerprintSupportsGestures">false</bool>
+    <bool name="config_is_powerbutton_fps">false</bool>
+    <bool name="config_voice_capable">true</bool>
+    <bool name="config_sms_capable">true</bool>
+    <bool name="config_mobile_data_capable">true</bool>
+
+    <dimen name="status_bar_height">@dimen/status_bar_height_portrait</dimen>
+    <dimen name="status_bar_height_default">24dp</dimen>
+    <dimen name="status_bar_height_landscape">@dimen/status_bar_height_portrait</dimen>
+    <dimen name="status_bar_height_portrait">24dp</dimen>
+    <dimen name="navigation_bar_height">48dp</dimen>
+    <dimen name="navigation_bar_height_landscape">48dp</dimen>
+    <dimen name="navigation_bar_width">48dp</dimen>
+    <dimen name="notification_header_padding_top">16dp</dimen>
+    <dimen name="notification_header_padding_bottom">16dp</dimen>
+    <dimen name="rounded_corner_radius">0dp</dimen>
+    <dimen name="rounded_corner_radius_bottom">0dp</dimen>
+    <dimen name="rounded_corner_radius_top">0dp</dimen>
+    <dimen name="quick_qs_offset_height">48dp</dimen>
+
+    <integer name="config_autoBrightnessBrighteningLightDebounce">4000</integer>
+    <integer name="config_autoBrightnessDarkeningLightDebounce">8000</integer>
+    <integer name="config_autoBrightnessInitialLightSensorRate">-1</integer>
+    <integer name="config_autoBrightnessLightSensorRate">250</integer>
+    <integer name="config_autoPowerModeAnyMotionSensor">0</integer>
+    <integer name="config_bluetooth_idle_cur_ma">0</integer>
+    <integer name="config_bluetooth_operating_voltage_mv">0</integer>
+    <integer name="config_bluetooth_rx_cur_ma">0</integer>
+    <integer name="config_bluetooth_tx_cur_ma">0</integer>
+    <integer name="config_brightness_ramp_rate_fast">180</integer>
+    <integer name="config_brightness_ramp_rate_slow">60</integer>
+    <integer name="config_cameraLaunchGestureSensorType">-1</integer>
+    <integer name="config_mobile_mtu">1500</integer>
+    <integer name="config_overrideHasPermanentMenuKey">0</integer>
+    <integer name="config_screenBrightnessDark">1</integer>
+    <integer name="config_screenBrightnessDim">10</integer>
+    <integer name="config_screenBrightnessDoze">1</integer>
+    <integer name="config_screenBrightnessSettingDefault">102</integer>
+    <integer name="config_screenBrightnessSettingMaximum">255</integer>
+    <integer name="config_screenBrightnessSettingMinimum">10</integer>
+    <integer name="config_shutdownBatteryTemperature">680</integer>
+    <integer name="config_lightSensorWarmupTime">0</integer>
+    <integer name="config_previousVibrationsDumpLimit">50</integer>
+    <integer name="config_screenBrightnessForVrSettingDefault">86</integer>
+    <integer name="config_screenBrightnessForVrSettingMinimum">79</integer>
+    <integer name="config_screenBrightnessForVrSettingMaximum">255</integer>
+    <integer name="config_burnInProtectionMaxRadius">-1</integer>
+    <integer name="config_burnInProtectionMinHorizontalOffset">0</integer>
+    <integer name="config_burnInProtectionMaxHorizontalOffset">0</integer>
+    <integer name="config_burnInProtectionMinVerticalOffset">0</integer>
+    <integer name="config_burnInProtectionMaxVerticalOffset">0</integer>
+    <integer name="config_defaultRefreshRate">60</integer>
+    <integer name="config_defaultPeakRefreshRate">0</integer>
+
+    <fraction name="config_autoBrightnessAdjustmentMaxGamma">300%</fraction>
+    <fraction name="config_maximumScreenDimRatio">20%</fraction>
+    <fraction name="config_screenAutoBrightnessDozeScaleFactor">100%</fraction>
+
+    <string name="config_cameraLaunchGestureSensorStringType"/>
+    <string name="config_mainBuiltInDisplayCutout"/>
+    <string name="config_mainBuiltInDisplayCutoutRectApproximation">@string/config_mainBuiltInDisplayCutout</string>
+</resources>
