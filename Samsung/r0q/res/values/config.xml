@@ -1079,6 +1079,12 @@
         <item>998.039</item>
         <item>1000</item>
     </array>
+    <bool name="config_supportsUdfps">true</bool>
+    <integer-array name="config_udfps_sensor_props">
+        <item>540</item>
+        <item>1750</item>
+        <item>110</item>
+    </integer-array>
     <integer-array name="config_availableColorModes">
         <item>0</item>
         <item>1</item>
@@ -1100,7 +1106,7 @@
     <bool name="config_displayBlanksAfterDoze">false</bool>
     <bool name="config_showNavigationBar">true</bool>
     <bool name="config_supportAudioSourceUnprocessed">false</bool>
-    <bool name="config_enableBurnInProtection">true</bool>
+    <bool name="config_enableBurnInProtection">false</bool>
     <item type="dimen" name="config_screenBrightnessSettingMaximumFloat">1.0</item>
     <item type="dimen" name="config_screenBrightnessSettingMinimumFloat">0.0</item>
     <dimen name="status_bar_height_portrait">4.799988mm</dimen>
