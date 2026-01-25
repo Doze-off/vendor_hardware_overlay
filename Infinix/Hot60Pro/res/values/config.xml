@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="config_ambientBrighteningThresholds">
+        <item>9000</item>
+        <item>4000</item>
+        <item>2000</item>
+        <item>1000</item>
+        <item>800</item>
+        <item>400</item>
+    </integer-array>
+    <integer-array name="config_ambientDarkeningThresholds">
+        <item>800</item>
+        <item>800</item>
+        <item>900</item>
+        <item>700</item>
+        <item>500</item>
+        <item>300</item>
+    </integer-array>
+    <integer-array name="config_ambientThresholdLevels">
+        <item>10</item>
+        <item>100</item>
+        <item>430</item>
+        <item>2000</item>
+        <item>20000</item>
+    </integer-array>
+    <array name="config_autoBrightnessDisplayValuesNits">
+        <item>5</item>
+        <item>34.6545</item>
+        <item>62.5</item>
+        <item>90.6504</item>
+        <item>97.1545</item>
+        <item>100.1016</item>
+        <item>140.5303</item>
+        <item>150.5788</item>
+        <item>161.0192</item>
+        <item>175.2868</item>
+        <item>181.3028</item>
+        <item>192.7367</item>
+        <item>243.0856</item>
+        <item>291.0505</item>
+        <item>351.9145</item>
+        <item>500</item>
+        <item>600</item>
+        <item>700</item>
+    </array>
+    <integer-array name="config_autoBrightnessLevels">
+        <item>900</item>
+        <item>1536</item>
+        <item>2000</item>
+        <item>2560</item>
+        <item>3148</item>
+        <item>4475</item>
+        <item>5632</item>
+        <item>8300</item>
+    </integer-array>
+    <string-array name="config_defaultPinnerServiceFiles">
+        <item>/system/framework/arm/boot-mediatek-framework.vdex</item>
+        <item>/system/lib/libjavacrypto.so</item>
+        <item>/system/lib/libhidltransport.so</item>
+        <item>/system/framework/arm/boot-core-libart.oat</item>
+        <item>/system/framework/arm/boot-conscrypt.oat</item>
+        <item>/system/framework/arm/boot-core-libart.vdex</item>
+        <item>/system/framework/arm/boot-ext.vdex</item>
+        <item>/system/framework/arm/boot.vdex</item>
+        <item>/system/framework/arm/boot-framework.vdex</item>
+        <item>/system/lib64/android.hardware.graphics.common@1.2.so</item>
+        <item>/system/lib64/android.hardware.graphics.common@1.0.so</item>
+        <item>/system/lib64/android.hardware.graphics.common@1.1.so</item>
+        <item>/system/lib64/android.hardware.graphics.common@2.1.so</item>
+        <item>/system/lib64/libdmabufheap.so</item>
+        <item>/system/lib64/libion.so</item>
+        <item>/vendor/lib64/vendor.mediatek.hardware.mtkpower@1.0.so</item>
+        <item>/system/lib64/libbinder.so</item>
+        <item>/system/lib64/libcamera_metadata.so</item>
+        <item>/vendor/lib64/libbwc.so</item>
+        <item>/system/lib64/libhidlbase.so</item>
+        <item>/system/framework/arm64/boot-framework-adservices.oat</item>
+        <item>/system/framework/arm64/boot-framework-adservices.vdex</item>
+        <item>/system/framework/arm64/boot-framework.oat</item>
+        <item>/system/lib64/libhwui.so</item>
+        <item>/system/lib64/libandroid_runtime.so</item>
+        <item>/system/lib64/libstlport_shared_n1.so</item>
+        <item>/system/lib64/libmedia_jni.so</item>
+        <item>/system/lib64/libgui.so</item>
+        <item>/apex/com.android.runtime/lib64/bionic/libc.so</item>
+        <item>/apex/com.android.art/javalib/core-oj.jar</item>
+        <item>/apex/com.android.i18n/javalib/core-icu4j.jar</item>
+        <item>/system/lib64/libexpat.so</item>
+        <item>/system/lib64/libutils.so</item>
+        <item>/system/lib64/libui.so</item>
+        <item>/system/lib64/libunwindstack.so</item>
+        <item>/system/lib64/libbase.so</item>
+        <item>/system/lib64/libc++.so</item>
+        <item>/vendor/lib64/libOpenCL.so</item>
+        <item>/apex/com.android.vndk.v31/lib64/libexif.so</item>
+        <item>/apex/com.android.vndk.v31/lib64/libfmq.so</item>
+        <item>/apex/com.android.vndk.v31/lib64/libhidlmemory.so</item>
+        <item>/system/bin/surfaceflinger</item>
+        <item>/system/lib64/libinputreader.so</item>
+        <item>/system/lib64/libinputflinger.so</item>
+        <item>/system/lib64/libinput.so</item>
+        <item>/vendor/lib64/hw/hwcomposer.mtk_common.so</item>
+    </string-array>
+    <integer-array name="config_screenBrightnessBacklight">
+        <item>1</item>
+        <item>15</item>
+        <item>30</item>
+        <item>45</item>
+        <item>60</item>
+        <item>75</item>
+        <item>90</item>
+        <item>105</item>
+        <item>120</item>
+        <item>135</item>
+        <item>150</item>
+        <item>165</item>
+        <item>180</item>
+        <item>195</item>
+        <item>210</item>
+        <item>225</item>
+        <item>240</item>
+        <item>255</item>
+    </integer-array>
+    <array name="config_screenBrightnessNits">
+        <item>2</item>
+        <item>40.6714</item>
+        <item>82.1108</item>
+        <item>114.9758</item>
+        <item>151.9228</item>
+        <item>197.1087</item>
+        <item>242.7273</item>
+        <item>270.8267</item>
+        <item>302.4431</item>
+        <item>336.4899</item>
+        <item>372.6931</item>
+        <item>410.5372</item>
+        <item>453.3583</item>
+        <item>497.5203</item>
+        <item>543.4662</item>
+        <item>593.6056</item>
+        <item>643.935</item>
+        <item>700</item>
+    </array>
+    <string-array name="config_tether_bluetooth_regexs">
+        <item>bt-pan</item>
+        <item>bt-dun</item>
+    </string-array>
+    <string-array name="config_tether_usb_regexs">
+        <item>rndis\\d</item>
+    </string-array>
+    <string-array name="config_tether_wifi_regexs">
+        <item>ap\\d</item>
+    </string-array>
+    <string-array name="networkAttributes">
+        <item>wifi,1,1,1,-1,true</item>
+        <item>mobile,0,0,0,-1,true</item>
+        <item>mobile_mms,2,0,2,60000,true</item>
+        <item>mobile_supl,3,0,2,60000,true</item>
+        <item>mobile_dun,4,0,2,60000,true</item>
+        <item>mobile_hipri,5,0,3,60000,true</item>
+        <item>ethernet,9,9,9,-1,true</item>
+        <item>mobile_fota,10,0,2,60000,true</item>
+        <item>mobile_ims,11,0,-1,-1,true</item>
+        <item>mobile_cbs,12,0,2,60000,true</item>
+        <item>wifi_p2p,13,1,0,-1,true</item>
+        <item>mobile_ia,14,0,2,-1,true</item>
+        <item>mobile_emergency,15,0,2,-1,true</item>
+        <item>mobile_mcx,1001,0,3,60000,true</item>
+        <item>mobile_xcap,1002,0,3,60000,true</item>
+        <item>mobile_rcs,2001,0,3,60000,true</item>
+        <item>mobile_bip,2002,0,3,60000,true</item>
+        <item>mobile_vsim,2003,0,-1,60000,true</item>
+    </string-array>
+    <bool name="config_device_volte_available">false</bool>
+    <bool name="config_device_vt_available">false</bool>
+    <bool name="config_device_wfc_ims_available">false</bool>
+    <bool name="config_fillMainBuiltInDisplayCutout">false</bool>
+    <bool name="config_hotswapCapable">true</bool>
+    <bool name="config_setColorTransformAccelerated">true</bool>
+    <bool name="config_switch_phone_on_voice_reg_state_change">false</bool>
+    <bool name="config_useDevInputEventForAudioJack">true</bool>
+    <bool name="skip_restoring_network_selection">true</bool>
+    <dimen name="navigation_bar_height">40.0dip</dimen>
+    <dimen name="navigation_bar_height_landscape">40.0dip</dimen>
+    <dimen name="navigation_bar_width">40.0dip</dimen>
+    <dimen name="quick_qs_offset_height">36.0dip</dimen>
+    <dimen name="status_bar_height_landscape">28.0dip</dimen>
+    <dimen name="status_bar_height_portrait">41.0dip</dimen>
+    <fraction name="config_maximumScreenDimRatio">33.334003%</fraction>
+    <string name="config_mainBuiltInDisplayCutout">M -24,0 L -24,41 L 24,41 L 24,0 Z @dp</string>
+</resources>
