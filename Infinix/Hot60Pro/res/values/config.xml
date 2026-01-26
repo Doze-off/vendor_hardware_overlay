@@ -44,6 +44,15 @@
         <item>700</item>
     </array>
     <integer-array name="config_autoBrightnessLevels">
+        <item>6</item>
+        <item>18</item>
+        <item>34</item>
+        <item>82</item>
+        <item>128</item>
+        <item>256</item>
+        <item>384</item>
+        <item>512</item>
+        <item>768</item>
         <item>900</item>
         <item>1536</item>
         <item>2000</item>
@@ -101,6 +110,73 @@
         <item>/system/lib64/libinput.so</item>
         <item>/vendor/lib64/hw/hwcomposer.mtk_common.so</item>
     </string-array>
+    <!-- <array name="config_backGestureInsetScales"> -->
+    <!--     <item>0.75</item> -->
+    <!--     <item>1.0</item> -->
+    <!--     <item>1.66</item> -->
+    <!-- </array> -->
+    <!-- <string-array name="config_nightDisplayColorTemperatureCoefficients"> -->
+    <!--     <item>0.0</item> -->
+    <!--     <item>0.0</item> -->
+    <!--     <item>1.0</item> -->
+    <!--     <item>-0.00000000962353339</item> -->
+    <!--     <item>0.000153045476</item> -->
+    <!--     <item>0.326473169</item> -->
+    <!--     <item>-0.0000000189359041</item> -->
+    <!--     <item>0.000302412211</item> -->
+    <!--     <item>-0.353539474</item> -->
+    <!-- </string-array> -->
+    <!-- <string-array name="config_nightDisplayColorTemperatureCoefficientsNative"> -->
+    <!--     <item>0.0</item> -->
+    <!--     <item>0.0</item> -->
+    <!--     <item>1.0</item> -->
+    <!--     <item>-0.00000000962353339</item> -->
+    <!--     <item>0.000153045476</item> -->
+    <!--     <item>0.326473169</item> -->
+    <!--     <item>-0.0000000189359041</item> -->
+    <!--     <item>0.000302412211</item> -->
+    <!--     <item>-0.353539474</item> -->
+    <!-- </string-array> -->
+    <!-- <string-array name="config_network_type_tcp_buffers"> -->
+    <string-array name="config_mobile_tcp_buffers">
+        <item>GPRS:4092,8760,48000,4096,8760,48000</item>
+        <item>EDGE:4093,26280,70800,4096,16384,70800</item>
+        <item>UMTS:58254,349525,1048576,58254,349525,1048576</item>
+        <item>CDMA:4094,87380,262144,4096,16384,262144</item>
+        <item>1xRTT:16384,32768,131072,4096,16384,102400</item>
+        <item>EvDo_0:4094,87380,262144,4096,16384,262144</item>
+        <item>EvDo_A:4094,87380,262144,4096,16384,262144</item>
+        <item>HSDPA:61167,367002,1101005,8738,52429,262114</item>
+        <item>HSUPA:40778,244668,734003,16777,100663,301990</item>
+        <item>HSPA:40778,244668,734003,16777,100663,301990</item>
+        <item>EvDo_B:4094,87380,262144,4096,16384,262144</item>
+        <item>eHRPD:131072,262144,1048576,4096,16384,524288</item>
+        <item>iDEN:4094,87380,262144,4096,16384,262144</item>
+        <item>LTE:2097152,4194304,8388608,262144,524288,2097152</item>
+        <item>HSPA+:122334,734003,2202010,32040,192239,576717</item>
+        <item>GSM:4092,8760,48000,4096,8760,48000</item>
+        <item>TD_SCDMA:58254,349525,1048576,58254,349525,1048576</item>
+        <item>LTE_CA:4096,6291456,12582912,4096,1048576,2097152</item>
+        <item>NR_NSA:2097152,6291456,16777216,512000,2097152,8388608</item>
+        <item>NR_NSA_MMWAVE:2097152,6291456,16777216,512000,2097152,8388608</item>
+        <item>NR_SA:2097152,6291456,16777216,512000,2097152,8388608</item>
+        <item>NR_SA_MMWAVE:2097152,6291456,16777216,512000,2097152,8388608</item>
+    </string-array>
+    <string-array name="config_gpsParameters">
+      <item>NTP_SERVER=pool.ntp.org</item>
+    </string-array>
+    <!-- <string-array name="config_ntpServers"> -->
+    <!--     <item>ntp://time.android.com</item> -->
+    <!--     <item>ntp://pool.ntp.org</item> -->
+    <!-- </string-array> -->
+    <!-- <string-array name="config_priorityOnlyDndExemptPackages"> -->
+    <!--     <item>com.android.dialer</item> -->
+    <!--     <item>com.android.server.telecom</item> -->
+    <!--     <item>com.android.systemui</item> -->
+    <!--     <item>android</item> -->
+    <!--     <item>com.sh.smart.caller</item> -->
+    <!--     <item>com.transsion.smartmessage</item> -->
+    <!-- </string-array> -->
     <integer-array name="config_screenBrightnessBacklight">
         <item>1</item>
         <item>15</item>
@@ -171,21 +247,208 @@
         <item>mobile_bip,2002,0,3,60000,true</item>
         <item>mobile_vsim,2003,0,-1,60000,true</item>
     </string-array>
+    <!-- <string-array name="required_apps_managed_device"> -->
+    <!--     <item>com.android.settings</item> -->
+    <!--     <item>com.android.systemui</item> -->
+    <!--     <item>com.android.contacts</item> -->
+    <!--     <item>com.android.dialer</item> -->
+    <!--     <item>com.android.stk</item> -->
+    <!--     <item>com.android.providers.downloads</item> -->
+    <!--     <item>com.android.providers.downloads.ui</item> -->
+    <!--     <item>com.android.documentsui</item> -->
+    <!--     <item>com.android.cellbroadcastreceiver</item> -->
+    <!--     <item>com.sh.smart.caller</item> -->
+    <!--     <item>com.transsion.aivoiceassistant</item> -->
+    <!-- </string-array> -->
+    <!-- <string-array name="required_apps_managed_profile"> -->
+    <!--     <item>com.android.contacts</item> -->
+    <!--     <item>com.android.settings</item> -->
+    <!--     <item>com.android.systemui</item> -->
+    <!--     <item>com.android.providers.downloads</item> -->
+    <!--     <item>com.android.providers.downloads.ui</item> -->
+    <!--     <item>com.android.documentsui</item> -->
+    <!--     <item>com.sh.smart.caller</item> -->
+    <!-- </string-array> -->
+    <!-- <string-array name="required_apps_managed_user"> -->
+    <!--     <item>com.android.settings</item> -->
+    <!--     <item>com.android.systemui</item> -->
+    <!--     <item>com.android.contacts</item> -->
+    <!--     <item>com.android.dialer</item> -->
+    <!--     <item>com.android.stk</item> -->
+    <!--     <item>com.android.providers.downloads</item> -->
+    <!--     <item>com.android.providers.downloads.ui</item> -->
+    <!--     <item>com.android.documentsui</item> -->
+    <!--     <item>com.sh.smart.caller</item> -->
+    <!-- </string-array> -->
+    <!-- <string-array name="supported_locales"> -->
+    <!--     <item>az-Latn-AZ</item> -->
+    <!--     <item>bs-Latn-BA</item> -->
+    <!--     <item>cs-CZ</item> -->
+    <!--     <item>da-DK</item> -->
+    <!--     <item>de-DE</item> -->
+    <!--     <item>et-EE</item> -->
+    <!--     <item>en-US</item> -->
+    <!--     <item>es-ES</item> -->
+    <!--     <item>es-US</item> -->
+    <!--     <item>fil-PH</item> -->
+    <!--     <item>fr-FR</item> -->
+    <!--     <item>ha-NG</item> -->
+    <!--     <item>hr-HR</item> -->
+    <!--     <item>in-ID</item> -->
+    <!--     <item>is-IS</item> -->
+    <!--     <item>it-IT</item> -->
+    <!--     <item>sw-TZ</item> -->
+    <!--     <item>lv-LV</item> -->
+    <!--     <item>lt-LT</item> -->
+    <!--     <item>lb-LU</item> -->
+    <!--     <item>hu-HU</item> -->
+    <!--     <item>ms-MY</item> -->
+    <!--     <item>nl-NL</item> -->
+    <!--     <item>nb-NO</item> -->
+    <!--     <item>uz-Latn-UZ</item> -->
+    <!--     <item>om-ET</item> -->
+    <!--     <item>pl-PL</item> -->
+    <!--     <item>pt-BR</item> -->
+    <!--     <item>pt-PT</item> -->
+    <!--     <item>ro-RO</item> -->
+    <!--     <item>sq-AL</item> -->
+    <!--     <item>sk-SK</item> -->
+    <!--     <item>sl-SI</item> -->
+    <!--     <item>sr-Latn-RS</item> -->
+    <!--     <item>sr-Latn-ME</item> -->
+    <!--     <item>fi-FI</item> -->
+    <!--     <item>sv-SE</item> -->
+    <!--     <item>vi-VN</item> -->
+    <!--     <item>tr-TR</item> -->
+    <!--     <item>tk-TM</item> -->
+    <!--     <item>el-GR</item> -->
+    <!--     <item>bg-BG</item> -->
+    <!--     <item>ky-KG</item> -->
+    <!--     <item>kk-KZ</item> -->
+    <!--     <item>mk-MK</item> -->
+    <!--     <item>ru-RU</item> -->
+    <!--     <item>be-BY</item> -->
+    <!--     <item>uk-UA</item> -->
+    <!--     <item>ka-GE</item> -->
+    <!--     <item>hy-AM</item> -->
+    <!--     <item>iw-IL</item> -->
+    <!--     <item>ur-PK</item> -->
+    <!--     <item>ar-EG</item> -->
+    <!--     <item>ar-DZ</item> -->
+    <!--     <item>ar-MA</item> -->
+    <!--     <item>ar-TN</item> -->
+    <!--     <item>ar-LY</item> -->
+    <!--     <item>ar-SA</item> -->
+    <!--     <item>ar-IQ</item> -->
+    <!--     <item>fa-IR</item> -->
+    <!--     <item>ks-IN</item> -->
+    <!--     <item>ckb-IQ</item> -->
+    <!--     <item>ne-NP</item> -->
+    <!--     <item>mr-IN</item> -->
+    <!--     <item>hi-IN</item> -->
+    <!--     <item>as-IN</item> -->
+    <!--     <item>bn-BD</item> -->
+    <!--     <item>pa-IN</item> -->
+    <!--     <item>gu-IN</item> -->
+    <!--     <item>or-IN</item> -->
+    <!--     <item>ta-IN</item> -->
+    <!--     <item>te-IN</item> -->
+    <!--     <item>kn-IN</item> -->
+    <!--     <item>ml-IN</item> -->
+    <!--     <item>si-LK</item> -->
+    <!--     <item>th-TH</item> -->
+    <!--     <item>my-MM</item> -->
+    <!--     <item>my-Qaag-ZG</item> -->
+    <!--     <item>lo-LA</item> -->
+    <!--     <item>km-KH</item> -->
+    <!--     <item>ti-ET</item> -->
+    <!--     <item>am-ET</item> -->
+    <!--     <item>zh-Hant-TW</item> -->
+    <!--     <item>zh-Hans-CN</item> -->
+    <!--     <item>tg-TJ</item> -->
+    <!--     <item>mn-MN</item> -->
+    <!--     <item>yo-NG</item> -->
+    <!--     <item>ig-NG</item> -->
+    <!--     <item>ibb-NG</item> -->
+    <!--     <item>efi-NG</item> -->
+    <!--     <item>ki-KE</item> -->
+    <!--     <item>kam-KE</item> -->
+    <!--     <item>luo-KE</item> -->
+    <!--     <item>guz-KE</item> -->
+    <!--     <item>mer-KE</item> -->
+    <!--     <item>pcm-NG</item> -->
+    <!-- </string-array> -->
     <bool name="config_device_volte_available">false</bool>
     <bool name="config_device_vt_available">false</bool>
     <bool name="config_device_wfc_ims_available">false</bool>
+    <!-- <bool name="config_dockedStackDividerFreeSnapMode">true</bool> -->
+    <!-- <bool name="config_enableMultiUserUI">true</bool> -->
     <bool name="config_fillMainBuiltInDisplayCutout">false</bool>
     <bool name="config_hotswapCapable">true</bool>
+    <!-- <bool name="config_longPressOnPowerForAssistantSettingAvailable">true</bool> -->
     <bool name="config_setColorTransformAccelerated">true</bool>
     <bool name="config_switch_phone_on_voice_reg_state_change">false</bool>
+    <!-- <bool name="config_unplugTurnsOnScreen">true</bool> -->
     <bool name="config_useDevInputEventForAudioJack">true</bool>
     <bool name="skip_restoring_network_selection">true</bool>
+    <!-- <item type="dimen" name="config_screenBrightnessDimFloat">4</item> -->
+    <item type="dimen" name="config_screenBrightnessDim">4</item>
+    <!-- <item type="dimen" name="config_screenBrightnessMinimumDimAmountFloat">0.01</item> -->
+    <!-- <dimen name="default_minimal_size_resizable_task">110.0dip</dimen> -->
+    <!-- <dimen name="docked_stack_divider_insets">8.0dip</dimen> -->
     <dimen name="navigation_bar_height">40.0dip</dimen>
     <dimen name="navigation_bar_height_landscape">40.0dip</dimen>
     <dimen name="navigation_bar_width">40.0dip</dimen>
     <dimen name="quick_qs_offset_height">36.0dip</dimen>
+    <!-- <dimen name="quick_qs_total_height">164.0dip</dimen> -->
+    <!-- <dimen name="rounded_corner_content_padding">20.0dip</dimen> -->
+    <dimen name="rounded_corner_radius">20.0dip</dimen>
     <dimen name="status_bar_height_landscape">28.0dip</dimen>
     <dimen name="status_bar_height_portrait">41.0dip</dimen>
     <fraction name="config_maximumScreenDimRatio">33.334003%</fraction>
+    <!-- <integer name="config_dockedStackDividerSnapMode">0</integer> -->
+    <!-- <integer name="config_globalActionsKeyTimeout">1800</integer> -->
+    <!-- <integer name="config_keyChordPowerVolumeUp">0</integer> -->
+    <!-- <integer name="config_longPressOnPowerBehavior">5</integer> -->
+    <!-- <integer name="config_maxNumVisibleRecentTasks">30</integer> -->
+    <!-- <integer name="config_maximumScreenDimDuration">20000</integer> -->
+    <!-- <integer name="config_multiuserMaximumUsers">4</integer> -->
+    <!-- <integer name="config_veryLongPressOnPowerBehavior">1</integer> -->
+    <!-- <integer name="tran_display_cutout_radius">37</integer> -->
+    <!-- <string name="config_chooserActivity">com.transsion.resolver/.ChooserActivity</string> -->
+    <!-- <string name="config_customResolverActivity">com.transsion.resolver/.ResolverActivity</string> -->
+    <!-- <string name="config_defaultCaptivePortalLoginPackageName">com.google.android.captiveportallogin</string> -->
+    <!-- <string name="config_defaultDialer">com.sh.smart.caller</string> -->
+    <!-- <string name="config_defaultModuleMetadataProvider">com.google.android.modulemetadata</string> -->
     <string name="config_mainBuiltInDisplayCutout">M -24,0 L -24,41 L 24,41 L 24,0 Z @dp</string>
+    <!-- <string name="config_mms_user_agent">Android-Mms/0.1</string> -->
+    <!-- <string name="config_mms_user_agent_profile_url">http://www.google.com/oha/rdf/ua-profile-kila.xml</string> -->
+    <!-- <string name="config_oemCredentialManagerDialogComponent">com.android.config oem CredentialManager Dialog Component</string> -->
+    <!-- <string name="config_qualified_networks_service_package">com.android.phone</string> -->
+    <!-- <string name="config_rawContactsLocalAccountName">Phone</string> -->
+    <!-- <string name="config_rawContactsLocalAccountType">Local Phone Account</string> -->
+    <!-- <string name="config_recentsComponentName">com.transsion.XOSLauncher/com.android.quickstep.RecentsActivity</string> -->
+    <!-- <string name="config_secondaryHomePackage">com.transsion.XOSLauncher</string> -->
+    <!-- <string name="config_systemContacts">com.sh.smart.caller</string> -->
+    <!-- <string name="config_systemFinancedDeviceController">com.google.android.devicelockcontroller</string> -->
+    <!-- <string name="config_systemGallery">com.google.android.apps.photos</string> -->
+    <!-- <string name="config_wallpaperCropperPackage">com.android.wallpaperpicker</string> -->
+    <!-- <string name="config_wifi_tcp_buffers">1730560,3461120,6922240,524288,1048576,4525824</string> -->
+    <!-- <string name="config_wlan_data_service_class">com.mediatek.internal.telephony.data.IwlanDataService</string> -->
+    <!-- <string name="config_wlan_data_service_package">com.android.phone</string> -->
+    <!-- <string name="config_wlan_network_service_class">com.mediatek.internal.telephony.IWlanNetworkService</string> -->
+    <!-- <string name="config_wlan_network_service_package">com.android.phone</string> -->
+    <!-- <string name="default_browser">com.android.chrome</string> -->
+    <!-- <string name="default_galler">com.google.android.apps.photos</string> -->
+    <!-- <string name="duration_days_shortest">%d d</string> -->
+    <!-- <string name="duration_days_shortest_future">in %d d</string> -->
+    <!-- <string name="duration_hours_shortest">%d h</string> -->
+    <!-- <string name="duration_hours_shortest_future">in %d h</string> -->
+    <!-- <string name="duration_minutes_shortest">%d min</string> -->
+    <!-- <string name="duration_minutes_shortest_future">in %d min</string> -->
+    <!-- <string name="duration_years_shortest">%d y</string> -->
+    <!-- <string name="duration_years_shortest_future">in %d y</string> -->
+    <!-- <string name="tran_display_cutout_center_point">(540,70)</string> -->
+    <!-- config_supportDoubleTapWake is not in overlay, but the device support it -->
+    <bool name="config_supportDoubleTapWake">true</bool>
 </resources>
