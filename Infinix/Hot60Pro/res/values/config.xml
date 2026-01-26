@@ -271,7 +271,7 @@
     <dimen name="quick_qs_offset_height">36.0dip</dimen>
     <!-- <dimen name="quick_qs_total_height">164.0dip</dimen> -->
     <!-- <dimen name="rounded_corner_content_padding">20.0dip</dimen> -->
-    <dimen name="rounded_corner_radius">20.0dip</dimen>
+    <dimen name="rounded_corner_radius">56.0dip</dimen>
     <dimen name="status_bar_height_landscape">28.0dip</dimen>
     <dimen name="status_bar_height_portrait">41.0dip</dimen>
     <fraction name="config_maximumScreenDimRatio">33.334003%</fraction>
