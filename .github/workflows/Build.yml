@@ -3,6 +3,14 @@ name: Overlay
 on:
   pull_request:
     branches: [pie]
+
+  workflow_dispatch:
+    inputs:
+      FORK_URL:
+        description: 'FORKED_URL'
+        required: true
+        default: 'https://github.com/phhusson/vendor_hardware_overlay'
+  
 jobs:
   build:
     runs-on: ubuntu-latest
