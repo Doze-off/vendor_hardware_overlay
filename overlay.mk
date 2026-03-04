@@ -60,8 +60,6 @@ PRODUCT_PACKAGES += \
 	treble-overlay-huawei-VTR \
 	treble-overlay-huawei-WAS \
 	treble-overlay-hw-ims \
-	treble-overlay-infinix-hot60proplus \
-	treble-overlay-infinix-hot60proplus-systemui \
 	treble-overlay-infinix-note10 \
 	treble-overlay-infinix-note10pro \
 	treble-overlay-infinix-note12v2023 \
@@ -142,7 +140,6 @@ PRODUCT_PACKAGES += \
 	treble-overlay-moto-tundra \
 	treble-overlay-moto-tundra-systemui \
 	treble-overlay-mtk-ims \
-	treble-overlay-multilaser-m84gso0v \
 	treble-overlay-nokia-b2n-7plus \
 	treble-overlay-nokia-ctl-7-1 \
 	treble-overlay-nokia-drg-6.1plus-x6 \
@@ -179,8 +176,6 @@ PRODUCT_PACKAGES += \
 	treble-overlay-oneplus-nord-systemui \
 	treble-overlay-oneplus-nord4 \
 	treble-overlay-oneplus-nord4-systemui \
-	treble-overlay-oneplus-nord5 \
-	treble-overlay-oneplus-nord5-systemui \
 	treble-overlay-oneplus-nordce \
 	treble-overlay-oneplus-nordce-systemui \
 	treble-overlay-oneplus-op10pro \
