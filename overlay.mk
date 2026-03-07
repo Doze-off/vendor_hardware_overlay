@@ -197,6 +197,7 @@ PRODUCT_PACKAGES += \
 	treble-overlay-onn-mid7019 \
 	treble-overlay-oppo-a54 \
 	treble-overlay-oppo-a54-systemui \
+    treble-overlay-oppo-f11 \
 	treble-overlay-oppo-findx \
 	treble-overlay-oppo-findx-systemui \
 	treble-overlay-oppo-findx3pro \
