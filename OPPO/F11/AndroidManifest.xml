@@ -5,6 +5,6 @@
         <overlay android:targetPackage="android"
         android:requiredSystemPropertyName="ro.boot.prjname"
         android:requiredSystemPropertyValue="18561"
-		android:priority="1710"
+		android:priority="215"
 		android:isStatic="true" />
 </manifest>
