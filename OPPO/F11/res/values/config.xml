@@ -12,6 +12,8 @@
     <bool name="config_automatic_brightness_available">true</bool>
     <bool name="config_enableWifiDisplay">true</bool>
     <bool name="config_hasVoocCharger">true</bool>
+
+    <dimen name="rounded_corner_radius">45.0dp</dimen>
     
     <integer name="config_screenBrightnessSettingMinimum">2</integer>
     
