@@ -456,7 +456,11 @@ PRODUCT_PACKAGES += \
 	treble-overlay-xiaomi-redminote135g \
 	treble-overlay-xiaomi-redminote13pro4g \
 	treble-overlay-xiaomi-redminote13pro4g-systemui \
+<<<<<<< HEAD
 	treble-overlay-xiaomi-redminote13pro5g \
+=======
+	treble-overlay-xiaomi-redminote145g \
+>>>>>>> 8569ca5 (Add Patch for Redmi Note 14 5G Overlay)
 	treble-overlay-xiaomi-redminote5 \
 	treble-overlay-xiaomi-redminote6pro \
 	treble-overlay-xiaomi-redminote6pro-systemui \
