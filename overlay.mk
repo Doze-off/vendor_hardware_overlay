@@ -346,8 +346,8 @@ PRODUCT_PACKAGES += \
 	treble-overlay-tecno-pova5-systemui \
 	treble-overlay-tecno-pova5pro \
 	treble-overlay-tecno-pova5pro-systemui \
+	treble-overlay-tecno-pova7 \
 	treble-overlay-tecno-pova7ultra \
-	treble-overlay-tecno-lj6 \
 	treble-overlay-tecno-spark10pro \
 	treble-overlay-tecno-spark5 \
 	treble-overlay-tecno-spark6 \
