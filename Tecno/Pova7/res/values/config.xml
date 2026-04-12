@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="config_device_volte_available">false</bool>
+    <bool name="config_device_vt_available">false</bool>
+    <bool name="config_device_wfc_ims_available">false</bool>
+    <bool name="config_fillMainBuiltInDisplayCutout">false</bool>
+    <bool name="config_setColorTransformAccelerated">true</bool>
+    <bool name="config_showNavigationBar">true</bool>
+    <bool name="config_switch_phone_on_voice_reg_state_change">false</bool>
+    <bool name="config_useDevInputEventForAudioJack">true</bool>
+    <bool name="config_hotswapCapable">true</bool>
+    <bool name="skip_restoring_network_selection">true</bool>
+    <dimen name="navigation_bar_height">40dp</dimen>
+    <dimen name="navigation_bar_height_landscape">40dp</dimen>
+    <dimen name="navigation_bar_width">40dp</dimen>
+    <dimen name="status_bar_height_landscape">28dp</dimen>
+    <dimen name="status_bar_height_portrait">38dp</dimen>
+    <string name="config_mainBuiltInDisplayCutout">M -24,0 L -24,38 L 24,38 L 24,0 Z @dp</string>
+</resources>
