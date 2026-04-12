@@ -1,10 +1,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-        package="me.phh.treble.overlay.lenovo.Q706F"
+        package="me.phh.treble.overlay.xiaomi.thor"
         android:versionCode="1"
         android:versionName="1.0">
         <overlay android:targetPackage="android"
                 android:requiredSystemPropertyName="ro.product.device"
-                android:requiredSystemPropertyValue="Q706F"
-        android:priority="676"
+                android:requiredSystemPropertyValue="thor"
+        android:priority="379"
         android:isStatic="true" />
 </manifest>
