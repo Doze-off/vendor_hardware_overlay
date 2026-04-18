@@ -457,6 +457,7 @@ PRODUCT_PACKAGES += \
 	treble-overlay-xiaomi-redminote13pro4g \
 	treble-overlay-xiaomi-redminote13pro4g-systemui \
 	treble-overlay-xiaomi-redminote13pro5g \
+	treble-overlay-xiaomi-redminote145g \
 	treble-overlay-xiaomi-redminote5 \
 	treble-overlay-xiaomi-redminote6pro \
 	treble-overlay-xiaomi-redminote6pro-systemui \
