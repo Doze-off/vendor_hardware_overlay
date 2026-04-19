@@ -52,15 +52,4 @@
         <item>bnep\\d</item>
         <item>bt-pan</item>
     </string-array>
-        <integer-array translatable="false" name="config_tether_bluetooth_regexs">
-        <item>bnep\\d</item>
-        <item>bt-pan</item>
-    </integer-array>
-    
-    <integer-array name="config_udfps_sensor_props" translatable="false">
-        <item>540</item>
-        <item>2035</item>
-        <item>112</item>
-    </integer-array>
-
 </resources>
