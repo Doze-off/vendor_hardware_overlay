@@ -60,6 +60,7 @@ PRODUCT_PACKAGES += \
 	treble-overlay-huawei-VTR \
 	treble-overlay-huawei-WAS \
 	treble-overlay-hw-ims \
+	treble-overlay-infinix-hot10 \
 	treble-overlay-infinix-hot60proplus \
 	treble-overlay-infinix-hot60proplus-systemui \
 	treble-overlay-infinix-note10 \
@@ -106,9 +107,9 @@ PRODUCT_PACKAGES += \
 	treble-overlay-meizu-m2461-systemui \
 	treble-overlay-misc-aod \
 	treble-overlay-misc-aod-systemui \
+	treble-overlay-misc-biometrics \
 	treble-overlay-misc-dt2w \
 	treble-overlay-misc-launcher3 \
-	treble-overlay-misc-biometrics \
 	treble-overlay-misc-minimal-brightness \
 	treble-overlay-misc-spen-pointer \
 	treble-overlay-misc-transparent-pointer \
@@ -197,7 +198,7 @@ PRODUCT_PACKAGES += \
 	treble-overlay-onn-mid7019 \
 	treble-overlay-oppo-a54 \
 	treble-overlay-oppo-a54-systemui \
-    treble-overlay-oppo-f11 \
+	treble-overlay-oppo-f11 \
 	treble-overlay-oppo-findx \
 	treble-overlay-oppo-findx-systemui \
 	treble-overlay-oppo-findx3pro \
@@ -253,7 +254,7 @@ PRODUCT_PACKAGES += \
 	treble-overlay-samsung-a21s \
 	treble-overlay-samsung-a21s-systemui \
 	treble-overlay-samsung-a22 \
-    treble-overlay-samsung-a23 \
+	treble-overlay-samsung-a23 \
 	treble-overlay-samsung-a30 \
 	treble-overlay-samsung-a31 \
 	treble-overlay-samsung-a31-systemui \
