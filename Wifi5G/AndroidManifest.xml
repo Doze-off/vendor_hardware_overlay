@@ -5,6 +5,6 @@
         <overlay android:targetPackage="android"
 		android:requiredSystemPropertyName="persist.sys.overlay.wifi5g"
 		android:requiredSystemPropertyValue="true"
-		android:priority="10"
+		android:priority="650"
 		android:isStatic="true" />
 </manifest>

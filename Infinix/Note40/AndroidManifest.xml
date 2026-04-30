@@ -5,6 +5,6 @@
         <overlay android:targetPackage="android"
             android:requiredSystemPropertyName="ro.product.vendor.brand"
             android:requiredSystemPropertyValue="+(TECNO|Infinix|Itel)"
-        android:priority="304"
+        android:priority="299"
         android:isStatic="true" />
 </manifest>
