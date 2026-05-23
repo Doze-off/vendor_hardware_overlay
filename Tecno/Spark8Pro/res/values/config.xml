@@ -44,9 +44,9 @@
         <item>mobile_bip,2002,0,3,60000,true</item>
         <item>mobile_vsim,2003,0,-1,60000,true</item>
     </string-array>
-    <bool name="config_device_volte_available">false</bool>
-    <bool name="config_device_vt_available">false</bool>
-    <bool name="config_device_wfc_ims_available">false</bool>
+    <bool name="config_device_volte_available">true</bool>
+    <bool name="config_device_vt_available">true</bool>
+    <bool name="config_device_wfc_ims_available">true</bool>
     <bool name="config_dynamic_bind_ims">true</bool>
     <bool name="config_fillMainBuiltInDisplayCutout">false</bool>
     <bool name="config_hotswapCapable">true</bool>
@@ -60,6 +60,6 @@
     <dimen name="status_bar_height_portrait">36.0dip</dimen>
     <integer name="config_autoBrightnessDarkeningLightDebounce">3000</integer>
     <string name="config_ims_package">com.mediatek.ims</string>
-    <string name="config_mainBuiltInDisplayCutout">M -24,0 L -24,36 L 24,36 L 24,0 Z @dp</string>
+    <string name="config_mainBuiltInDisplayCutout">M -8,0 L -8,36 L 8,36 L 8,0 Z @dp</string>
     <string name="config_mainBuiltInDisplayCutoutRectApproximation">@string/config_mainBuiltInDisplayCutout</string>
 </resources>
