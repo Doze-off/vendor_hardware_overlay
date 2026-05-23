@@ -3,7 +3,7 @@
         android:versionCode="1"
         android:versionName="1.0">
         <overlay android:targetPackage="android"
-        	android:requiredSystemPropertyName="ro.product.vendor.device"
+        	android:requiredSystemPropertyName="ro.product.board"
         	android:requiredSystemPropertyValue="TECNO-KG8"
 		android:priority="264"
 		android:isStatic="true" />
