@@ -34,7 +34,7 @@
     <bool name="config_supportsMicToggle">true</bool>
 
     <integer name="config_num_physical_slots">2</integer>
-    <integer name="config_screenBrightnessDoze">10</integer>
+    <integer name="config_screenBrightnessDoze">50</integer>
     <integer name="config_shortPressOnPowerBehavior">1</integer>
     <integer-array name="config_autoBrightnessLcdBacklightValues">
         <item>2</item>
