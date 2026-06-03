@@ -5,6 +5,7 @@ PRODUCT_PACKAGES += \
 	treble-overlay-Hisense-HLTE556N \
 	treble-overlay-NavBar \
 	treble-overlay-NightMode \
+	treble-overlay-Redmi-dizi \
 	treble-overlay-SystemUI-FalseLocks \
 	treble-overlay-Telephony-LTE \
 	treble-overlay-alldocube-xneo \
@@ -81,6 +82,7 @@ PRODUCT_PACKAGES += \
 	treble-overlay-infinix-zero6 \
 	treble-overlay-infinix-zeroxpro \
 	treble-overlay-lenovo-Q706F \
+	treble-overlay-lenovo-TB610FU \
 	treble-overlay-lenovo-Y70 \
 	treble-overlay-lenovo-k5pro \
 	treble-overlay-lenovo-p11_pro_plus \
@@ -221,6 +223,7 @@ PRODUCT_PACKAGES += \
 	treble-overlay-realme-8pro \
 	treble-overlay-realme-9i \
 	treble-overlay-realme-9i-systemui \
+	treble-overlay-realme-RE602AL1 \
 	treble-overlay-realme-c2 \
 	treble-overlay-realme-c3 \
 	treble-overlay-realme-gt2master \
@@ -237,7 +240,6 @@ PRODUCT_PACKAGES += \
 	treble-overlay-realme-q2 \
 	treble-overlay-realme-q2-systemui \
 	treble-overlay-realme-q3 \
-	treble-overlay-realme-RE602AL1 \
 	treble-overlay-realme-x2pro \
 	treble-overlay-samsung-S10pq \
 	treble-overlay-samsung-S10q \
