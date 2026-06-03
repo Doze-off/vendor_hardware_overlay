@@ -1,0 +1,10 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+        package="me.phh.treble.overlay.lenovo.TB610FU"
+        android:versionCode="1"
+        android:versionName="1.0">
+        <overlay android:targetPackage="android"
+                android:requiredSystemPropertyName="ro.product.device"
+                android:requiredSystemPropertyValue="TB610FU"
+        android:priority="591"
+        android:isStatic="true" />
+</manifest>
