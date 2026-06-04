@@ -350,10 +350,15 @@
         <item>500</item>
         <item>500</item>
     </integer-array>
-    <string name="config_mainBuiltInDisplayCutout" translatable="false">M 0,0 H -42 V 108 H 42 V 0 H 0 Z</string>
+    <string name="config_mainBuiltInDisplayCutout" translatable="false">M 38 68 a 38,38 0 0 0 -76,0 a 38,38 0 0 0 76,0</string>
+    <string name="config_mainBuiltInDisplayCutoutRectApproximation" translatable="false">M 46,0 V 136 H -46 V 0 Z</string>
+    <bool name="config_fillMainBuiltInDisplayCutout">true</bool>
     <string-array name="config_biometric_sensors" translatable="false">
         <item>0:2:15</item>
     </string-array>
+    <dimen name="status_bar_height_default">28dp</dimen>
+    <dimen name="status_bar_height_portrait">136px</dimen>
+    <dimen name="status_bar_height_landscape">28dp</dimen>
     <dimen name="rounded_corner_radius_top">140.0px</dimen>
     <dimen name="rounded_corner_radius_bottom">140.0px</dimen>
 </resources>
