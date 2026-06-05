@@ -144,6 +144,7 @@ PRODUCT_PACKAGES += \
 	treble-overlay-moto-tesla-systemui \
 	treble-overlay-moto-tundra \
 	treble-overlay-moto-tundra-systemui \
+	treble-overlay-moto-lamu \
 	treble-overlay-mtk-ims \
 	treble-overlay-multilaser-m84gso0v \
 	treble-overlay-nokia-b2n-7plus \
