@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="status_bar_height">@dimen/status_bar_height_portrait</dimen>
+    <dimen name="status_bar_height_default">24.0dp</dimen>
+    <dimen name="status_bar_height_landscape">@dimen/status_bar_height_portrait</dimen>
+    <dimen name="status_bar_height_portrait">32.0dp</dimen>
+
+    <string name="config_mainBuiltInDisplayCutout">M 40,65 A 40,40 0 0 1 0,105 40,40 0 0 1 -40,65 40,40 0 0 1 0,25 40,40 0 0 1 40,65 Z</string>
+    <string name="config_mainBuiltInDisplayCutoutRectApproximation">M 0.0,0.0 h -106 v 106 h 106 Z</string>
+</resources>
