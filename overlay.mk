@@ -24,6 +24,7 @@ PRODUCT_PACKAGES += \
 	treble-overlay-bq-jeice \
 	treble-overlay-caf-ims \
 	treble-overlay-cubot-kkxpro \
+	treble-overlay-cubot-kkp5 \
 	treble-overlay-devinputjack \
 	treble-overlay-doogee-vmax \
 	treble-overlay-duoqin-qin2pro \
