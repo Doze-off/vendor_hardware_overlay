@@ -102,16 +102,6 @@
     <string-array name="config_tether_wifi_regexs">
         <item>ap\\d</item>
     </string-array>
-    <string-array name="fingerprint_acquired_vendor">
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item>This fingerprint has existed, please use other fingers to enter</item>
-        <item>This area has been entered, please change the area</item>
-        <item>Fingerprint coverage</item>
-    </string-array>
     <string-array name="networkAttributes">
         <item>wifi,1,1,1,-1,true</item>
         <item>mobile,0,0,0,-1,true</item>
@@ -192,8 +182,6 @@
     <integer name="config_screenBrightnessDoze">50</integer>
     <integer name="config_shortPressOnPowerBehavior">1</integer>
 
-    <string name="config_dozeComponent">com.android.dreams.alwaysondisplay/.AlwaysOnDisplay</string>
-
     <item type="dimen" name="config_screenBrightnessSettingDefaultFloat">0.75</item>
     <item type="dimen" name="config_screenBrightnessSettingMaximumFloat">1.0</item>
     <item type="dimen" name="config_screenBrightnessSettingMinimumFloat">0.0</item>
@@ -250,7 +238,4 @@
 
     <integer name="config_defaultPeakRefreshRate">121</integer>
     <integer name="config_defaultRefreshRate">121</integer>
-
-    <string name="config_mainBuiltInDisplayCutout">M 0,0 L -56, 0 L -54, 35 L 54, 35 L 56, 0 Z @dp</string>
-    <string name="config_mainBuiltInDisplayCutoutRectApproximation">@string/config_mainBuiltInDisplayCutout</string>
 </resources>
