@@ -63,6 +63,8 @@ PRODUCT_PACKAGES += \
 	treble-overlay-huawei-WAS \
 	treble-overlay-hw-ims \
 	treble-overlay-infinix-hot10 \
+	treble-overlay-infinix-hot60pro \
+	treble-overlay-infinix-hot60pro-systemui \
 	treble-overlay-infinix-hot60proplus \
 	treble-overlay-infinix-hot60proplus-systemui \
 	treble-overlay-infinix-note10 \
