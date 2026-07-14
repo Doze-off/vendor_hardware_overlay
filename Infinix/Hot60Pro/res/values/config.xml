@@ -110,8 +110,6 @@
     and dimens.xml based on your config.env settings.
 -->
 
-    <bool name="config_dozeAlwaysOnDisplayAvailable">true</bool>
-
     <bool name="config_dozeAfterScreenOffByDefault">true</bool>
     <bool name="config_dozePulsePickup">true</bool>
 
@@ -153,6 +151,12 @@
     <string name="config_mainBuiltInDisplayCutout" translatable="false">M -24,0 L -24,41 L 24,41 L 24,0 Z @dp</string>
 
     <bool name="config_fillMainBuiltInDisplayCutout">false</bool>
+
+    <bool name="config_displayBlanksAfterDoze">true</bool>
+
+    <bool name="config_dozeSupportsAodWallpaper">false</bool>
+
+    <bool name="config_supportAudioSourceUnprocessed">true</bool>
 
     <bool name="config_useDevInputEventForAudioJack">true</bool>
 
@@ -207,7 +211,7 @@
         <item>255</item>
     </integer-array>
 
-    <integer name="config_defaultRefreshRate">120</integer>
+    <integer name="config_defaultRefreshRate">144</integer>
     <integer name="config_defaultPeakRefreshRate">144</integer>
 
     <integer name="config_dockedStackDividerSnapMode">0</integer>
