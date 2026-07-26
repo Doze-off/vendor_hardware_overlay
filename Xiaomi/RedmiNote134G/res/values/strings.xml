@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="config_mainBuiltInDisplayCutout">M 0,0 H -28 V 94 H 28 V 0 H 0 Z</string>
+    <string name="config_thermalFilePath">/sys/class/thermal/thermal_zone0/temp</string>
+</resources>

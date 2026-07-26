@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="config_camera_aux_allow_all">true</bool>
+    <bool name="config_screen_off_udfps_default_on">false</bool>
+    <bool name="config_screen_off_udfps_enabled">true</bool>
+    <bool name="config_sf_slowBlur">false</bool>
+    <bool name="config_supportScreenOffUdfps">true</bool>
+</resources>

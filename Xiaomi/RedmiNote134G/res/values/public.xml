@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <public type="array" name="config_autoBrightnessDisplayValuesNits" id="0x7f010000" />
+    <public type="array" name="config_autoBrightnessLevels" id="0x7f010001" />
+    <public type="array" name="config_camera_aux_package_allowlist" id="0x7f010002" />
+    <public type="array" name="config_screenBrightnessBacklight" id="0x7f010003" />
+    <public type="array" name="config_screenBrightnessNits" id="0x7f010004" />
+    <public type="bool" name="config_camera_aux_allow_all" id="0x7f020000" />
+    <public type="bool" name="config_screen_off_udfps_default_on" id="0x7f020001" />
+    <public type="bool" name="config_screen_off_udfps_enabled" id="0x7f020002" />
+    <public type="bool" name="config_sf_slowBlur" id="0x7f020003" />
+    <public type="bool" name="config_supportScreenOffUdfps" id="0x7f020004" />
+    <public type="dimen" name="config_screenBrightnessDimFloat" id="0x7f030000" />
+    <public type="dimen" name="config_screenBrightnessSettingDefaultFloat" id="0x7f030001" />
+    <public type="dimen" name="config_screenBrightnessSettingMaximumFloat" id="0x7f030002" />
+    <public type="dimen" name="config_screenBrightnessSettingMinimumFloat" id="0x7f030003" />
+    <public type="dimen" name="rounded_corner_radius" id="0x7f030004" />
+    <public type="dimen" name="rounded_corner_radius_bottom" id="0x7f030005" />
+    <public type="dimen" name="rounded_corner_radius_top" id="0x7f030006" />
+    <public type="dimen" name="status_bar_height_default" id="0x7f030007" />
+    <public type="dimen" name="status_bar_height_portrait" id="0x7f030008" />
+    <public type="integer" name="config_defaultPeakRefreshRate" id="0x7f040000" />
+    <public type="integer" name="config_screenBrightnessDim" id="0x7f040001" />
+    <public type="integer" name="config_thermalThreshold" id="0x7f040002" />
+    <public type="integer" name="config_udfps_illumination_transition_ms" id="0x7f040003" />
+    <public type="string" name="config_dozeUdfpsLongPressSensorType" id="0x7f050000" />
+    <public type="string" name="config_mainBuiltInDisplayCutout" id="0x7f050001" />
+    <public type="string" name="config_thermalFilePath" id="0x7f050002" />
+    <public type="xml" name="power_profile" id="0x7f060000" />
+</resources>

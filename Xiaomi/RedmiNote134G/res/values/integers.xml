@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="config_defaultPeakRefreshRate">120</integer>
+    <integer name="config_screenBrightnessDim">13</integer>
+    <integer name="config_thermalThreshold">45000</integer>
+    <integer name="config_udfps_illumination_transition_ms">50</integer>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="config_supportsVONR">false</bool>
+    <bool name="config_turbulenceNoise">false</bool>
+    <bool name="doze_display_state_supported">false</bool>
+</resources>
