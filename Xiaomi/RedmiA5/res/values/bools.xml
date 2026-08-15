@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <bool name="config_fillMainBuiltInDisplayCutout">false</bool>
-    <bool name="config_supportsCamToggle">true</bool>
-    <bool name="config_supportsMicToggle">true</bool>
-    <bool name="config_useRoundIcon">true</bool>
-    <bool name="config_automatic_brightness_available">true</bool>
-    <bool name="config_dozeAlwaysOnDisplayAvailable">false</bool>
-</resources>

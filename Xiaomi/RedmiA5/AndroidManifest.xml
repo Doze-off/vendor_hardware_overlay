@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="36" android:compileSdkVersionCodename="16" package="me.phh.treble.overlay.xiaomi.redmia5" platformBuildVersionCode="36" platformBuildVersionName="16">
-    <application android:extractNativeLibs="false" android:usesNonSdkApi="true"/>
-    <overlay android:isStatic="true" android:priority="618" android:requiredSystemPropertyName="ro.product.vendor.device" android:requiredSystemPropertyValue="serenity" android:targetPackage="android"/>
-</manifest>
