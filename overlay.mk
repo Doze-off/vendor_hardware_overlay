@@ -441,6 +441,8 @@ PRODUCT_PACKAGES += \
 	treble-overlay-xiaomi-pocom5 \
 	treble-overlay-xiaomi-pocom5-systemui \
 	treble-overlay-xiaomi-pocox3gt \
+    treble-overlay-xiaomi-redmi10c \
+	treble-overlay-xiaomi-redmi10c-systemui \
 	treble-overlay-xiaomi-redmi10x5g \
 	treble-overlay-xiaomi-redmi10x5g-systemui \
 	treble-overlay-xiaomi-redmi6 \
@@ -454,8 +456,6 @@ PRODUCT_PACKAGES += \
 	treble-overlay-xiaomi-redmi9-systemui \
 	treble-overlay-xiaomi-redmi9a \
 	treble-overlay-xiaomi-redmi9t \
-	treble-overlay-xiaomi-redmia5 \
-	treble-overlay-xiaomi-redmia5-systemui \
 	treble-overlay-xiaomi-redmigo \
 	treble-overlay-xiaomi-redmik20pro \
 	treble-overlay-xiaomi-redmik20pro-systemui \
