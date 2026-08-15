@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <dimen name="status_bar_padding_end">3.0dp</dimen>
-    <dimen name="status_bar_padding_start">14.0dp</dimen>
-</resources>
