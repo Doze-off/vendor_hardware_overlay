@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="me.phh.treble.overlay.motorola.boston.systemui"
+    android:versionCode="1"
+    android:versionName="1.0">
+    <overlay android:targetPackage="com.android.systemui"
+        android:requiredSystemPropertyName="ro.product.device"
+        android:requiredSystemPropertyValue="boston"
+        android:priority="9999"
+        android:isStatic="true" />
+</manifest>
