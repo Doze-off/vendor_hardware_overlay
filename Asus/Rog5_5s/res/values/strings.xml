@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Real vendor partition service package names, confirmed present in both of ASUS's own
+         device overlays - these bind IWLAN/ePDG (VoWiFi handover) to the actual QTI service
+         shipped on this vendor partition. Since a GSI reuses this same real vendor.img, the
+         same package names apply regardless of which system.img is running. -->
+    <string name="config_qualified_networks_service_package">vendor.qti.iwlan</string>
+    <string name="config_wlan_data_service_package">vendor.qti.iwlan</string>
+    <string name="config_wlan_network_service_package">vendor.qti.iwlan</string>
+</resources>

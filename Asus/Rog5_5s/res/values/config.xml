@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- No display cutout - confirmed empty in stock too. Panel is a flat AMOLED with the
+         front camera in the top bezel, not a punch-hole/notch. -->
+
+    <!-- Real ratio derived from ASUS's compiled fraction value (aapt2 renders a stored
+         TYPE_FRACTION as its raw float, e.g. AOSP's own "300%" source literal decodes to
+         "3.000000%" the same way) - verified against that known-good round-trip before
+         trusting this one. AOSP default is 24%. -->
+    <fraction name="config_maximumScreenDimRatio">20%</fraction>
+
+    <!-- AOSP default is an empty list; ASUS's stock declares fingerprint only (no face entry -
+         this project's own bring-up separately confirmed AOSP/HIDL face enrollment doesn't
+         work on this hardware, ASUS's real face unlock runs through a separate proprietary
+         app instead, so it's intentionally left out here too). -->
+    <string-array name="config_biometric_sensors" translatable="false">
+        <item>0:2:15</item>
+    </string-array>
+
+    <array name="config_defaultPinnerServiceFiles">
+        <item>/system/framework/arm64/boot-framework.oat</item>
+        <item>/system/framework/arm64/boot-QPerformance.oat</item>
+        <item>/system/framework/arm64/boot-UxPerformance.oat</item>
+        <item>/system/framework/framework.jar</item>
+        <item>/system/framework/oat/arm64/services.odex</item>
+        <item>/system/framework/services.jar</item>
+        <item>/apex/com.android.media/javalib/updatable-media.jar</item>
+        <item>/system/lib64/libsurfaceflinger.so</item>
+    </array>
+</resources>

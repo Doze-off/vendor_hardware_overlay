@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Real, calibrated power profile extracted from ASUS's own stock
+     vendor/overlay/FrameworksResTarget.apk for ROG Phone 5/5s (SM8350, Snapdragon 888/888+).
+     battery.capacity (6000) matches the device's real dual 3000mAh cell spec. -->
+<device name="Android">
+    <item name="battery.capacity">6000</item>
+
+    <array name="cpu.clusters.cores">
+        <value>4</value>
+        <value>3</value>
+        <value>1</value>
+    </array>
+
+    <item name="cpu.suspend">8.2</item>
+    <item name="cpu.idle">6.2</item>
+    <item name="cpu.active">7.4</item>
+
+    <item name="cpu.cluster_power.cluster0">6.5</item>
+    <item name="cpu.cluster_power.cluster1">7.8</item>
+    <item name="cpu.cluster_power.cluster2">6.8</item>
+
+    <array name="cpu.core_speeds.cluster0">
+        <value>300000</value>
+        <value>403200</value>
+        <value>499200</value>
+        <value>595200</value>
+        <value>691200</value>
+        <value>806400</value>
+        <value>902400</value>
+        <value>998400</value>
+        <value>1094400</value>
+        <value>1209600</value>
+        <value>1305600</value>
+        <value>1401600</value>
+        <value>1497600</value>
+        <value>1612800</value>
+        <value>1708800</value>
+        <value>1804800</value>
+    </array>
+
+    <array name="cpu.core_speeds.cluster1">
+        <value>710400</value>
+        <value>844800</value>
+        <value>960000</value>
+        <value>1075200</value>
+        <value>1209600</value>
+        <value>1324800</value>
+        <value>1440000</value>
+        <value>1555200</value>
+        <value>1670400</value>
+        <value>1766400</value>
+        <value>1881600</value>
+        <value>1996800</value>
+        <value>2112000</value>
+        <value>2227200</value>
+        <value>2342400</value>
+        <value>2419200</value>
+    </array>
+
+    <array name="cpu.core_speeds.cluster2">
+        <value>844800</value>
+        <value>960000</value>
+        <value>1075200</value>
+        <value>1190400</value>
+        <value>1305600</value>
+        <value>1420800</value>
+        <value>1555200</value>
+        <value>1670400</value>
+        <value>1785600</value>
+        <value>1900800</value>
+        <value>2035200</value>
+        <value>2150400</value>
+        <value>2265600</value>
+        <value>2380800</value>
+        <value>2496000</value>
+        <value>2592000</value>
+        <value>2688000</value>
+        <value>2764800</value>
+        <value>2841600</value>
+        <value>2918400</value>
+        <value>2995200</value>
+    </array>
+
+    <array name="cpu.core_power.cluster0">
+        <value>41.6</value>
+        <value>42.0</value>
+        <value>42.6</value>
+        <value>42.8</value>
+        <value>43.1</value>
+        <value>44.3</value>
+        <value>45.7</value>
+        <value>47.2</value>
+        <value>48.7</value>
+        <value>51.5</value>
+        <value>53.8</value>
+        <value>56.2</value>
+        <value>58.3</value>
+        <value>61.8</value>
+        <value>64.9</value>
+        <value>68.6</value>
+    </array>
+
+    <array name="cpu.core_power.cluster1">
+        <value>70.6</value>
+        <value>80.2</value>
+        <value>89.3</value>
+        <value>99.6</value>
+        <value>108.7</value>
+        <value>120.3</value>
+        <value>131.4</value>
+        <value>143.8</value>
+        <value>157.2</value>
+        <value>171.7</value>
+        <value>201.7</value>
+        <value>236.7</value>
+        <value>270.9</value>
+        <value>308.7</value>
+        <value>354.5</value>
+        <value>370.1</value>
+    </array>
+
+    <array name="cpu.core_power.cluster2">
+        <value>97.5</value>
+        <value>106.0</value>
+        <value>114.1</value>
+        <value>125.1</value>
+        <value>133.8</value>
+        <value>147.0</value>
+        <value>166.6</value>
+        <value>184.7</value>
+        <value>201.9</value>
+        <value>237.9</value>
+        <value>259.4</value>
+        <value>304.5</value>
+        <value>346.7</value>
+        <value>390.8</value>
+        <value>440.5</value>
+        <value>494.7</value>
+        <value>561.2</value>
+        <value>618.6</value>
+        <value>672.5</value>
+        <value>752.5</value>
+        <value>855.3</value>
+    </array>
+
+    <item name="ambient.on">44</item>
+    <item name="screen.on">75.8</item>
+    <item name="screen.full">260.8</item>
+    <item name="camera.flashlight">147.3</item>
+    <item name="camera.avg">943.9</item>
+    <item name="video">25</item>
+    <item name="audio">75</item>
+
+    <item name="modem.controller.sleep">0</item>
+    <item name="modem.controller.idle">6</item>
+    <item name="modem.controller.rx">180</item>
+    <array name="modem.controller.tx">
+        <value>96</value>
+        <value>133</value>
+        <value>183</value>
+        <value>225</value>
+        <value>295</value>
+    </array>
+    <item name="modem.controller.voltage">3700</item>
+
+    <array name="gps.signalqualitybased">
+        <value>24</value>
+        <value>6</value>
+    </array>
+    <item name="gps.voltage">3700</item>
+    <item name="gps.on">13.7</item>
+
+    <item name="wifi.controller.idle">1</item>
+    <item name="wifi.controller.rx">176</item>
+    <item name="wifi.controller.tx">200</item>
+    <item name="wifi.controller.voltage">3700</item>
+    <array name="wifi.controller.tx_levels">
+        <value>1</value>
+    </array>
+
+    <item name="bluetooth.controller.idle">0.01</item>
+    <item name="bluetooth.controller.rx">9</item>
+    <item name="bluetooth.controller.tx">7</item>
+    <item name="bluetooth.controller.voltage">3700</item>
+    <item name="bluetooth.active">130</item>
+    <item name="bluetooth.on">0.7</item>
+
+    <array name="memory.bandwidths">
+        <value>17</value>
+    </array>
+
+    <array name="wifi.batchedscan">
+        <value>.0001</value>
+        <value>.001</value>
+        <value>.01</value>
+        <value>.1</value>
+        <value>1</value>
+    </array>
+</device>

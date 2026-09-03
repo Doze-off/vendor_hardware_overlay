@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="status_bar_height_portrait">30dp</dimen>
+
+    <!-- Real final value from ASUS's own vendor/overlay/FrameworksResTarget.apk (priority 500),
+         which overrides a different, unrelated 144px value baked into the base
+         framework-res.apk on this build - the Target overlay wins at runtime. -->
+    <dimen name="rounded_corner_radius">20dp</dimen>
+    <dimen name="rounded_corner_content_padding">0dp</dimen>
+</resources>

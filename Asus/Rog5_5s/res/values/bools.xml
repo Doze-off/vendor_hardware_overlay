@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ASUS ROG Phone 5 (ZS673KS) and ROG Phone 5s (ZS676KS) ship one identical combined
+         stock firmware and share the same fingerprint device field (ASUS_I005_1/ASUS_I005D),
+         so this overlay covers both.
+
+         Real values below were extracted directly from ASUS's own stock device-specific
+         framework overlays - vendor/overlay/FrameworksResTarget.apk (priority 500) and
+         product/overlay/FrameworksResCommon_Sys.apk (priority 100), both targeting "android" -
+         i.e. the exact same overlay mechanism used here, just ASUS's own copy for their stock
+         ROM. Where the two disagreed, the higher-priority (Target) value was used, matching
+         real runtime resolution order. Diffed against upstream AOSP defaults; only listed
+         where they differ. -->
+
+    <bool name="config_dozeAlwaysOnDisplayAvailable">true</bool>
+    <bool name="config_dozeAlwaysOnEnabled">false</bool>
+    <bool name="config_dozeAfterScreenOff">true</bool>
+    <bool name="config_useDevInputEventForAudioJack">true</bool>
+    <bool name="config_showNavigationBar">true</bool>
+    <bool name="config_automatic_brightness_available">true</bool>
+    <bool name="config_setColorTransformAccelerated">true</bool>
+    <bool name="config_supportAudioSourceUnprocessed">true</bool>
+    <bool name="config_hotswapCapable">true</bool>
+    <bool name="config_unplugTurnsOnScreen">true</bool>
+    <bool name="config_speed_up_audio_on_mt_calls">true</bool>
+    <bool name="config_powerDecoupleAutoSuspendModeFromDisplay">true</bool>
+
+    <bool name="config_device_volte_available">true</bool>
+    <bool name="config_device_vt_available">true</bool>
+    <bool name="config_device_wfc_ims_available">true</bool>
+    <bool name="config_carrier_volte_available">true</bool>
+    <bool name="config_telephony5gNonStandalone">true</bool>
+    <bool name="config_telephony5gStandalone">true</bool>
+
+    <bool name="config_wifiDisplaySupportsProtectedBuffers">true</bool>
+    <bool name="config_wifi_background_scan_support">true</bool>
+    <bool name="config_wifi_batched_scan_supported">true</bool>
+    <bool name="config_wifi_dual_band_support">true</bool>
+    <bool name="config_wifi_dual_sap_mode_enabled">true</bool>
+    <bool name="config_wifi_connected_mac_randomization_supported">true</bool>
+    <bool name="config_wifi_p2p_mac_randomization_supported">true</bool>
+    <bool name="config_wifi_softap_acs_supported">true</bool>
+    <bool name="config_wifi_softap_ieee80211ac_supported">true</bool>
+    <bool name="config_bluetooth_le_peripheral_mode_supported">true</bool>
+    <bool name="config_bluetooth_hfp_inband_ringing_support">true</bool>
+</resources>
