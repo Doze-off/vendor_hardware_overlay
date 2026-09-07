@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- No display cutout - confirmed empty in stock too. Panel is a flat AMOLED with the
+         front camera in the top bezel, not a punch-hole/notch. -->
+
+    <!-- Real ratio derived from ASUS's compiled fraction value (aapt2 renders a stored
+         TYPE_FRACTION as its raw float, e.g. AOSP's own "300%" source literal decodes to
+         "3.000000%" the same way) - verified against that known-good round-trip before
+         trusting this one. AOSP default is 24%. -->
+    <fraction name="config_maximumScreenDimRatio">20%</fraction>
+
+    <!-- AOSP default is an empty list; ASUS's stock declares fingerprint only (no face entry -
+         this project's own bring-up separately confirmed AOSP/HIDL face enrollment doesn't
+         work on this hardware, ASUS's real face unlock runs through a separate proprietary
+         app instead, so it's intentionally left out here too). -->
+    <string-array name="config_biometric_sensors" translatable="false">
+        <item>0:2:15</item>
+    </string-array>
+
+    <!-- Without this array, AuthService.getHidlFingerprintSensorProps() treats the sensor
+         as non-UDFPS (isUdfps = !ArrayUtils.isEmpty(config_udfps_sensor_props)), which is
+         exactly why the stock AOSP-based enrollment wizard prompted for a rear/back sensor
+         on a device whose fingerprint reader is actually in-display.
+         Values are real ASUS measurements pulled from ASUS's own compiled stock
+         AsusSystemUIWW.apk (dimens are stored in raw px, matching this array's unit):
+           - Y = dimen/physical_fingerprint_sensor_center_screen_location_y = 610px (as
+             measured by ASUS itself; ASUS's own reviewers/users have separately noted this
+             device's sensor sits noticeably higher on the panel than typical phones, which
+             matches ~25% down from the top rather than the usual ~75%)
+           - X: ASUS's own dimen/physical_fingerprint_sensor_center_screen_location_x is
+             "@null" in the compiled resource (computed at runtime, not hardcoded) - used
+             displayWidth / 2 = 1080 / 2 = 540, consistent with a horizontally-centered
+             sensor (no evidence of any off-center placement)
+           - radius = dimen/fod_icon_size / 2 = 220px / 2 = 110 (ASUS's own enrollment/
+             lockscreen fingerprint icon diameter, the standard basis other UDFPS overlays
+             use for this field when no separate sensor-radius resource exists) -->
+    <integer-array name="config_udfps_sensor_props" translatable="false">
+        <item>540</item>
+        <item>610</item>
+        <item>110</item>
+    </integer-array>
+
+    <array name="config_defaultPinnerServiceFiles">
+        <item>/system/framework/arm64/boot-framework.oat</item>
+        <item>/system/framework/arm64/boot-QPerformance.oat</item>
+        <item>/system/framework/arm64/boot-UxPerformance.oat</item>
+        <item>/system/framework/framework.jar</item>
+        <item>/system/framework/oat/arm64/services.odex</item>
+        <item>/system/framework/services.jar</item>
+        <item>/apex/com.android.media/javalib/updatable-media.jar</item>
+        <item>/system/lib64/libsurfaceflinger.so</item>
+    </array>
+</resources>
