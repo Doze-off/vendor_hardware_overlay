@@ -5,12 +5,6 @@
     <public type="bool" name="config_supportsCamToggle" id="0x7f020001" />
     <public type="bool" name="config_supportsMicToggle" id="0x7f020002" />
     <public type="bool" name="config_useRoundIcon" id="0x7f020003" />
-    <public type="color" name="accent_device_default_dark" id="0x7f030000" />
-    <public type="color" name="accent_device_default_light" id="0x7f030001" />
-    <public type="color" name="background_device_default_light" id="0x7f030002" />
-    <public type="color" name="primary_dark_device_default_settings" id="0x7f030003" />
-    <public type="color" name="primary_dark_device_default_settings_light" id="0x7f030004" />
-    <public type="color" name="primary_device_default_settings_light" id="0x7f030005" />
     <public type="dimen" name="config_dialogCornerRadius" id="0x7f040000" />
     <public type="dimen" name="rounded_corner_radius" id="0x7f040001" />
     <public type="dimen" name="rounded_corner_radius_adjustment" id="0x7f040002" />
