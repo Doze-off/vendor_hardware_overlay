@@ -2,9 +2,28 @@
         package="me.phh.treble.overlay.asus.rog5_5s"
         android:versionCode="1"
         android:versionName="1.0">
+        <!--
+             requiredSystemPropertyValue is checked via a plain string-equals
+             (FrameworkParsingPackageUtils#checkRequiredSystemProperties,
+             confirmed directly in AOSP source, framework build 36) - there
+             is no wildcard/glob support anywhere in that function, so
+             "+*ASUS_I005_1*" against the full ro.vendor.build.fingerprint
+             (which also embeds the specific build number, e.g.
+             "asus/WW_I005D/ASUS_I005_1:11/RKQ1.210303.002/18.1220.2202.206-0:
+             user/release-keys") can never match and this overlay would
+             never activate even if built in. ro.product.vendor.device is a
+             short, stable exact value instead - and per this overlay's own
+             comments in res/values/bools.xml, ROG Phone 5 (ZS673KS) and
+             ROG Phone 5s (ZS676KS) ship the exact same combined firmware
+             and share this identical device field, confirmed live on a
+             ZS676KS (ROG Phone 5s) unit - so this single exact match
+             already covers both models without needing separate
+             conditions, and won't break on a future OTA build-number bump
+             the way matching the full fingerprint would have.
+        -->
         <overlay android:targetPackage="android"
-                android:requiredSystemPropertyName="ro.vendor.build.fingerprint"
-                android:requiredSystemPropertyValue="+*ASUS_I005_1*"
+                android:requiredSystemPropertyName="ro.product.vendor.device"
+                android:requiredSystemPropertyValue="ASUS_I005_1"
 		android:priority="625"
 		android:isStatic="true" />
 </manifest>
