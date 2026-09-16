@@ -11,6 +11,7 @@ PRODUCT_PACKAGES += \
 	treble-overlay-alldocube-iplay30 \
 	treble-overlay-alldocube-xneo \
 	treble-overlay-asus-rog5-5s \
+	treble-overlay-asus-rog5_5s-wifi \
 	treble-overlay-asus-rogphone \
 	treble-overlay-asus-zenfone5 \
 	treble-overlay-asus-zenfone5-10 \
