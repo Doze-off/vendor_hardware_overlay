@@ -6,4 +6,6 @@
     <bool name="config_useRoundIcon">true</bool>
     <bool name="config_automatic_brightness_available">true</bool>
     <bool name="config_dozeAlwaysOnDisplayAvailable">false</bool>
+    <bool name="config_is_powerbutton_fps" translatable="false">true</bool>
+    <bool name="config_enableHapticTextHandle">true</bool>
 </resources>
