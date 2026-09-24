@@ -2,4 +2,9 @@
 <resources>
     <dimen name="status_bar_padding_end">3.0dp</dimen>
     <dimen name="status_bar_padding_start">14.0dp</dimen>
+    <dimen name="physical_power_button_center_screen_location_y">700px</dimen>
+    <dimen name="physical_fingerprint_sensor_center_screen_location_y">700px</dimen>
+    <dimen name="physical_fingerprint_sensor_center_screen_location_x">720px</dimen>
+    <dimen name="physical_volume_down_button_center_screen_location_y">850px</dimen>
+    <dimen name="physical_volume_up_button_center_screen_location_y">550px</dimen>
 </resources>

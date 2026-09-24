@@ -1,4 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <array name="config_biometric_sensors" />
+    <string-array name="config_biometric_sensors" translatable="false">
+        <item>0:2:15</item>
+    </string-array>
+    <array name="config_sfps_sensor_props" translatable="false">
+        <item>@array/config_sfps_sensor_props_0</item>
+    </array>
+    <array name="config_sfps_sensor_props_0" translatable="false">
+        <item>0</item>
+        <item>720</item>
+        <item>700</item>
+        <item>80</item>
+    </array>
 </resources>
