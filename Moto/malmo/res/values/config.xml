@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- arrays -->
+    <integer-array name="config_autoBrightnessLevels">
+        <item>2</item>
+        <item>4</item>
+        <item>10</item>
+        <item>20</item>
+        <item>40</item>
+        <item>100</item>
+        <item>325</item>
+        <item>1250</item>
+        <item>3500</item>
+        <item>5000</item>
+        <item>10000</item>
+        <item>20000</item>
+        <item>30000</item>
+    </integer-array>
+    <integer-array name="config_autoBrightnessDisplayValuesNits">
+        <item>3</item>
+        <item>7</item>
+        <item>10</item>
+        <item>24</item>
+        <item>64</item>
+        <item>82</item>
+        <item>90</item>
+        <item>105</item>
+        <item>192</item>
+        <item>412</item>
+        <item>500</item>
+        <item>700</item>
+        <item>1000</item>
+        <item>1200</item>
+    </integer-array>
+    <integer-array name="config_autoBrightnessLcdBacklightValues">
+        <item>10</item>
+        <item>20</item>
+        <item>40</item>
+        <item>70</item>
+        <item>110</item>
+        <item>160</item>
+        <item>200</item>
+        <item>255</item>
+    </integer-array>
+    <integer-array name="config_udfps_sensor_props">
+        <item>540</item>
+        <item>2154</item>
+        <item>91</item>
+    </integer-array>
+    <integer-array name="config_availableColorModes">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </integer-array>
+    <string-array name="config_telephonyEuiccDeviceCapabilities">
+        <item>gsm,11</item>
+        <item>utran,9</item>
+        <item>eutran,15</item>
+        <item>nfc,0</item>
+    </string-array>
+    <integer-array name="non_removable_euicc_slots">
+        <item>1</item>
+    </integer-array>
+    <string-array name="config_tether_usb_regexs">
+        <item>rndis\\d</item>
+    </string-array>
+
+    <!-- bools -->
+    <bool name="config_anr_only_dump_self">true</bool>
+    <bool name="config_automatic_brightness_available">true</bool>
+    <bool name="config_device_volte_available">true</bool>
+    <bool name="config_device_vt_available">true</bool>
+    <bool name="config_device_wfc_ims_available">true</bool>
+    <bool name="config_double_tap_to_wake_supported">true</bool>
+    <bool name="config_dozeAfterScreenOff">true</bool>
+    <bool name="config_dozeAlwaysOnDisplayAvailable">true</bool>
+    <bool name="config_dozeAlwaysOnEnabled">false</bool>
+    <bool name="config_enableBurnInProtection">true</bool>
+    <bool name="config_hasTurboPowerCharger">true</bool>
+    <bool name="config_powerDecoupleAutoSuspendModeFromDisplay">true</bool>
+    <bool name="config_powerDecoupleInteractiveModeFromDisplay">true</bool>
+    <bool name="config_refresh_rate_auto_lite_supported">true</bool>
+    <bool name="config_setColorTransformAccelerated">true</bool>
+    <bool name="config_smartChargingAvailable">true</bool>
+    <bool name="config_smart_battery_available">true</bool>
+    <bool name="config_statusBarBurnInProtection">true</bool>
+    <bool name="config_supportsScreenOffUdfps">true</bool>
+    <bool name="config_supportsUdfps">true</bool>
+    <bool name="config_zramWriteback">true</bool>
+
+    <!-- dimens -->
+    <dimen name="config_dialogCornerRadius">24.0dp</dimen>
+    <dimen name="rounded_corner_radius">68.0px</dimen>
+    <dimen name="status_bar_height_landscape">28.0dp</dimen>
+    <dimen name="status_bar_height_portrait">40.0dp</dimen>
+
+    <!-- integers -->
+    <integer name="config_bluetooth_operating_voltage_mv">3300</integer>
+    <integer name="config_minimumScreenOffTimeout">8000</integer>
+    <integer name="config_screenBrightnessDoze">17</integer>
+    <integer name="config_autoBrightnessBrighteningLightDebounce">500</integer>
+    <integer name="config_autoBrightnessDarkeningLightDebounce">500</integer>
+    
+    <!-- strings -->
+    <string name="config_cameraLaunchGestureSensorStringType">com.motorola.sensor.camera_activate</string>
+    <string name="config_mainBuiltInDisplayCutout">M -38,0 L 38,0 L 38,108 L -38,108 Z</string>
+    <string name="wifi_tether_configure_ssid_default">moto g85 5g</string>
+</resources>
