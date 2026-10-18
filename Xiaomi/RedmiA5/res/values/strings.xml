@@ -5,4 +5,13 @@
     <string name="config_mainBuiltInDisplayCutoutRectApproximation">@string/config_mainBuiltInDisplayCutout</string>
     <string name="config_secondaryHomeComponent">com.android.launcher3/com.android.launcher3.SecondaryDisplayLauncher</string>
     <string name="config_secondaryHomePackage">com.android.launcher3</string>
+    <string name="quick_settings_tiles_default" translatable="false">internet,bt,dnd,flashlight,battery,airplane,cast,location</string>
+    <string-array name="config_statusBarIconBlackList" translatable="false">
+        <item>@*android:string/status_bar_rotate</item>
+        <item>@*android:string/status_bar_volume</item>
+        <item>@*android:string/status_bar_airplane</item>
+        <item>@*android:string/status_bar_mute</item>
+        <item>@*android:string/status_bar_headset</item>
+        <item>@*android:string/status_bar_sensors_off</item>
+    </string-array>
 </resources>
