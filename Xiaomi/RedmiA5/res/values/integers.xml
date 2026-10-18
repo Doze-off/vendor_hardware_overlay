@@ -2,4 +2,7 @@
 <resources>
     <integer name="config_screenBrightnessSettingMaximum">255</integer>
     <integer name="config_screenBrightnessSettingMinimum">2</integer>
+     //to show the build number on the qs, example 16 (BP4A.251205.006)
+     //generally, its not confirmed that it works on heavily modified custom roms, but it should work on less modified AOSP-based roms.
+    <bool name="config_showBuildNumberInQS">true</bool>
 </resources>
