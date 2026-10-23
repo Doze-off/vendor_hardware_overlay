@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Universal boolean overrides — safe for any device.
+    
+    Device-specific values (Samsung UDFPS, AOD, burn-in, VoLTE, etc.)
+    are now controlled via config.env → auto-generated in generated.xml.
+    
+    For other device-specific bools (power decoupling, display blanks after
+    doze, audio jack, camera sound, VoLTE carrier flags, etc.):
+      - Add them to config.env (see OPTIONAL STOCK VALUES section)
+      - Or extract from your stock overlay APKs following the TrebleDroid guide:
+        https://github.com/TrebleDroid/treble_experimentations/wiki/How-to-create-an-overlay%3F
+-->
+<resources>
+
+    <!-- Display: Show navigation bar for gesture nav -->
+    <bool name="config_showNavigationBar">true</bool>
+
+    <!-- Display: Screen wake on unplug -->
+
+    <!-- Connectivity: Hot-swappable SIM -->
+    <bool name="config_hotswapCapable">true</bool>
+
+    <!-- Security: Lock screen rotation -->
+    <bool name="config_enableLockScreenRotation">true</bool>
+
+    <!-- Multi-user support -->
+
+    <!-- Cell broadcast app links -->
+
+    <!-- Wifi Display -->
+    <bool name="config_enableWifiDisplay">true</bool>
+
+</resources>

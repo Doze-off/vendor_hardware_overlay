@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Device-specific integer arrays — EXTRACT FROM YOUR STOCK FIRMWARE.
+    
+    ⚠️ The auto-brightness curves below are PLACEHOLDER values only!
+    
+    These must be replaced with values from YOUR device's stock overlay APK:
+      /system/product/overlay/framework-res__auto_generated_rro_product.apk
+      /system/vendor/overlay/framework-res__auto_generated_rro_vendor.apk
+    
+    See the TrebleDroid overlay guide for extraction instructions:
+    https://github.com/TrebleDroid/treble_experimentations/wiki/How-to-create-an-overlay%3F
+    
+    Alternatively, you can set these via config.env (see OPTIONAL STOCK VALUES):
+      - AUTO_BRIGHTNESS_LEVELS
+      - AUTO_BRIGHTNESS_BACKLIGHT_VALUES
+      (and the hysteresis arrays)
+-->
+<resources>
+
+  <array name="config_autoBrightnessDisplayValuesNits">
+    <item>3</item>
+    <item>10</item>
+    <item>16</item>
+    <item>32</item>
+    <item>64</item>
+    <item>82</item>
+    <item>90</item>
+    <item>105</item>
+    <item>192</item>
+    <item>412</item>
+    <item>500</item>
+    <item>700</item>
+    <item>800</item>
+    <item>1000</item>
+    <item>1400</item>
+    <item>1850</item>
+  </array>
+
+  <array name="config_autoBrightnessLevels">
+    <item>2</item>
+    <item>4</item>
+    <item>10</item>
+    <item>20</item>
+    <item>40</item>
+    <item>100</item>
+    <item>325</item>
+    <item>1250</item>
+    <item>3500</item>
+    <item>5000</item>
+    <item>10000</item>
+    <item>30000</item>
+    <item>80000</item>
+    <item>100000</item>
+    <item>200000</item>
+  </array>
+
+  <array name="config_screenBrightnessBacklight">
+    <item>7</item>
+    <item>27</item>
+    <item>35</item>
+    <item>49</item>
+    <item>70</item>
+    <item>80</item>
+    <item>83</item>
+    <item>90</item>
+    <item>116</item>
+    <item>164</item>
+    <item>179</item>
+    <item>209</item>
+    <item>222</item>
+    <item>232</item>
+    <item>252</item>
+    <item>255</item>
+  </array>
+
+  <array name="config_screenBrightnessNits">
+    <item>3</item>
+    <item>10</item>
+    <item>16</item>
+    <item>32</item>
+    <item>64</item>
+    <item>82</item>
+    <item>90</item>
+    <item>105</item>
+    <item>192</item>
+    <item>412</item>
+    <item>500</item>
+    <item>700</item>
+    <item>800</item>
+    <item>1000</item>
+    <item>1400</item>
+    <item>1850</item>
+  </array>
+  <!-- ============================================================
+         AUTO-BRIGHTNESS MAPPING — PLACEHOLDER VALUES
+         
+         Replace these with values extracted from your stock product
+         overlay APK using the TrebleDroid guide above.
+         
+         These placeholder values (for a generic device) will work but
+         will not provide optimal auto-brightness behavior.
+         ============================================================ -->
+
+  <!-- ⬇ Add YOUR auto-brightness arrays below ⬇
+         
+         OPTION 1: Set them via config.env (recommended):
+           AUTO_BRIGHTNESS_LEVELS="1 5 10 50 100 500 1000 ..."
+           AUTO_BRIGHTNESS_BACKLIGHT_VALUES="5 15 30 60 ..."
+         
+         OPTION 2: Place them here (if not using config.env):
+           <integer-array name="config_autoBrightnessLevels">
+               <item>1</item>
+               <item>5</item>
+               ...
+           </integer-array>
+           <integer-array name="config_autoBrightnessLcdBacklightValues">
+               <item>5</item>
+               <item>15</item>
+               ...
+           </integer-array>
+         
+         ⚠️ DO NOT use both options — that causes duplicate resource errors!
+         
+         Extract your values from the stock product overlay APK:
+           /system/product/overlay/framework-res__auto_generated_rro_product.apk
+         
+         See the TrebleDroid overlay guide:
+         https://github.com/TrebleDroid/treble_experimentations/wiki/How-to-create-an-overlay%3F
+    -->
+
+</resources>
