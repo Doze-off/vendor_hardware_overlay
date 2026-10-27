@@ -165,6 +165,8 @@ PRODUCT_PACKAGES += \
 	treble-overlay-motorola-austin-systemui \
 	treble-overlay-motorola-boston \
 	treble-overlay-motorola-boston-systemui \
+	treble-overlay-motorola-scout \
+	treble-overlay-motorola-scout-systemui \
 	treble-overlay-moto-malmo \
 	treble-overlay-mtk-ims \
 	treble-overlay-multilaser-m84gso0v \
