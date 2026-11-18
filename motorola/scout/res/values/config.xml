@@ -65,8 +65,6 @@
 
     <bool name="config_enableHapticTextHandle">true</bool>
 
-    <integer name="config_udfpsEnrollProgressBar">70</integer>
-
     <array name="config_longPressVibePattern">
         <item>0</item>
         <item>30</item>
@@ -74,11 +72,11 @@
 
     <array name="config_virtualKeyVibePattern">
         <item>0</item>
-        <item>20</item>
+        <item>15</item>
     </array>
 
     <array name="config_clockTickVibePattern">
         <item>0</item>
-        <item>10</item>
+        <item>15</item>
     </array>
 </resources>
