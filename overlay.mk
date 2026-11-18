@@ -26,6 +26,7 @@ PRODUCT_PACKAGES += \
 	treble-overlay-blackview-shark8-systemui \
 	treble-overlay-bq-jeice \
 	treble-overlay-caf-ims \
+	langsdorff-overlay-ims \
 	treble-overlay-cubot-kkp5 \
 	treble-overlay-cubot-kkxpro \
 	treble-overlay-devinputjack \
@@ -390,6 +391,7 @@ PRODUCT_PACKAGES += \
 	treble-overlay-tecno-spark8pro \
 	treble-overlay-telephony-caf-ims \
 	treble-overlay-telephony-floss-ims \
+	langsdorff-overlay-telephony-ims \
 	treble-overlay-telephony-hw-ims \
 	treble-overlay-telephony-mtk-ims \
 	treble-overlay-telephony-slsi-ims \
